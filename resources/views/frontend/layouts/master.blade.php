@@ -1,4 +1,4 @@
-@php
+{{-- @php
 $cookie = App\Models\Admin\SiteSections::siteCookie();
 //cookies results
 $approval_status = request()->cookie('approval_status');
@@ -14,7 +14,7 @@ $s_browser = $loaded_browser;
 $s_platform = $loaded_platform;
 $s_agent = $loaded_agent;
 
-@endphp
+@endphp --}}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,14 +23,13 @@ $s_agent = $loaded_agent;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @php
-    $tag = implode(', ', $setup_seo->tags);
-    @endphp
-    <meta name="keywords" content="{{ $tag }}">
-    <meta name="title" content="{{ $setup_seo->title }}" />
+    <meta name="keywords" content="gamer, voucher">
+    <meta name="title" content="Gamer Station - One Stop Game Hub for Every Gamer" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="{{ $setup_seo->desc }}" />
-    <title>{{ $basic_settings->site_name }} | {{ $basic_settings->site_title }}</title>
+    <meta name="description"
+        content="With GamerStation, gamers can buy vouchers quickly and safely, directly through the website or mobile application." />
+
+    <title>Gamer Station | One Stop Game Hub for Every Gamer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link

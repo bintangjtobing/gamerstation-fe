@@ -3,35 +3,280 @@
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-8">
                 <div class="section-header text-center">
-                    <span class="section-sub-titel"><i class="{{ @$recharge->value->language->$lang->social_icon }}"></i>
+                    <span class="section-sub-titel"><i
+                            class="{{ @$recharge->value->language->$lang->social_icon }}"></i>
                         {{ @$recharge->value->language->$lang->sub_heading }}</span>
-                    <h2 class="section-title"> <span
-                            class="text--base">{{ @$recharge->value->language->$lang->heading }}</span></h2>
+                    <h2 class="section-title"> <span class="text--base">{{ @$recharge->value->language->$lang->heading
+                            }}</span></h2>
                 </div>
             </div>
         </div>
         <div class="topup-area">
             <div class="row justify-content-center mb-30-none">
-                @forelse ($top_up_games as $top_up_game)
-                    <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
-                        <a href="{{ route('top.up.details', $top_up_game->slug) }}">
-                            <div class="topup-item">
-                                <div class="topup-thumb">
-                                    <img src="{{ get_image(@$top_up_game->profile_image, 'top-up-game') }}"
-                                        alt="topup">
-                                </div>
-                                <div class="topup-content">
-                                    <h5 class="title">{{ @$top_up_game->title }}</h5>
-                                    <p>{{ $top_up_game->created_at->format('M d, Y') }}</p>
-                                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
-                        </a>
-                    </div>
-                @empty
-                    <div class="col-12 mb-30 text-center">
-                        <h6>{{ __('No Data Found') }}</h6>
-                    </div>
-                @endforelse
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-4 col-xs-6 mb-30">
+                    <a href="top-up-game/8-ball-pool">
+                        <div class="topup-item">
+                            <div class="topup-thumb">
+                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                            </div>
+                            <div class="topup-content">
+                                <h5 class="title">8 Ball Pool</h5>
+                                <p>Sep 09, 2023</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-12 mb-30 text-center">
+                    <p>Top up Modern Combat 5: Blackout Credits and VIP Points in seconds! Just enter your Modern Combat
+                        5: Blackout user ID, select the value of Credits and VIP Points you wish to purchase, complete
+                        the payment, and the Credits and VIP Points will be added immediately to your Modern Combat 5:
+                        Blackout account.</p>
+                    <p>Pay with convenience using bKash and Robi. There's no credit card, registration, or log-in
+                        required!</p>
+                </div>
 
             </div>
         </div>

@@ -1,9 +1,9 @@
 @php
-    //get selected language
-    $lang = selectedLang();
-    // why choose
-    $why_choose_slug = Illuminate\Support\Str::slug(App\Constants\SiteSectionConst::WHY_CHOOSE_SECTION);
-    $why_choose = App\Models\Admin\SiteSections::getData($why_choose_slug)->first();
+//get selected language
+$lang = "en";
+// why choose
+$why_choose_slug = Illuminate\Support\Str::slug(App\Constants\SiteSectionConst::WHY_CHOOSE_SECTION);
+$why_choose = App\Models\Admin\SiteSections::getData($why_choose_slug)->first();
 @endphp
 
 <section class="feature-section ptb-100 bg_img"
@@ -22,19 +22,19 @@
         <div class="feature-wrapper">
             <div class="row justify-content-center mb-30-none">
                 @foreach ($why_choose->value->items as $item)
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-30">
-                        <div class="feature-item">
-                            <div class="feature-icon-wrapper">
-                                <div class="feature-icon">
-                                    <i class="{{ @$item->language->$lang->item_social_icon }}"></i>
-                                </div>
-                            </div>
-                            <div class="feature-content">
-                                <h4 class="title">{{ @$item->language->$lang->item_title }}</h4>
-                                <p>{{ @$item->language->$lang->item_description }}</p>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-30">
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper">
+                            <div class="feature-icon">
+                                <i class="{{ @$item->language->$lang->item_social_icon }}"></i>
                             </div>
                         </div>
+                        <div class="feature-content">
+                            <h4 class="title">{{ @$item->language->$lang->item_title }}</h4>
+                            <p>{{ @$item->language->$lang->item_description }}</p>
+                        </div>
                     </div>
+                </div>
                 @endforeach
 
 

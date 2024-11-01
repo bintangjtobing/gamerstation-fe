@@ -1,6 +1,6 @@
 @php
 //get selected language
-$lang = selectedLang();
+$lang = "en";
 // Footer section
 $footer_slug = Illuminate\Support\Str::slug(App\Constants\SiteSectionConst::FOOTER_SECTION);
 $footer = App\Models\Admin\SiteSections::getData($footer_slug)->first();

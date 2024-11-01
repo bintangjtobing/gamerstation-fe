@@ -4,7 +4,7 @@
 @endpush
 @php
 //get selected language
-// $lang = selectedLang();
+// $lang = "en";
 // header slider
 $header_slider_slug = Illuminate\Support\Str::slug(App\Constants\SiteSectionConst::HEADER_SLIDERS_SECTION);
 $header_slider = App\Models\Admin\SiteSections::getData($header_slider_slug)->first();
