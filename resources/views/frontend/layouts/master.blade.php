@@ -1,18 +1,18 @@
 @php
-    $cookie = App\Models\Admin\SiteSections::siteCookie();
-    //cookies results
-    $approval_status = request()->cookie('approval_status');
-    $c_user_agent = request()->cookie('user_agent');
-    $c_ip_address = request()->cookie('ip_address');
-    $c_browser = request()->cookie('browser');
-    $c_platform = request()->cookie('platform');
+$cookie = App\Models\Admin\SiteSections::siteCookie();
+//cookies results
+$approval_status = request()->cookie('approval_status');
+$c_user_agent = request()->cookie('user_agent');
+$c_ip_address = request()->cookie('ip_address');
+$c_browser = request()->cookie('browser');
+$c_platform = request()->cookie('platform');
 
-    //system informations
-    $s_ipAddress = request()->ip();
-    $s_location = geoip()->getLocation($s_ipAddress);
-    $s_browser = $loaded_browser;
-    $s_platform = $loaded_platform;
-    $s_agent = $loaded_agent;
+//system informations
+$s_ipAddress = request()->ip();
+$s_location = geoip()->getLocation($s_ipAddress);
+$s_browser = $loaded_browser;
+$s_platform = $loaded_platform;
+$s_agent = $loaded_agent;
 
 @endphp
 
@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @php
-        $tag = implode(', ', $setup_seo->tags);
+    $tag = implode(', ', $setup_seo->tags);
     @endphp
     <meta name="keywords" content="{{ $tag }}">
     <meta name="title" content="{{ $setup_seo->title }}" />
