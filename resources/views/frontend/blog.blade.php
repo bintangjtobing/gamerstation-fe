@@ -15,57 +15,41 @@ $blogs = App\Models\Blog::get();
         <div class="row mb-30">
             <div class="col-xl-8 col-lg-7 col-md-12 mb-30">
                 <div class="row mb-30-none">
-                    @forelse ($blogs as $blog)
                     <div class="col-xl-6 col-lg-12 col-md-6 mb-30">
                         <div class="blog-item">
                             <div class="blog-item-thumb">
-                                <img src="{{ get_image(@$blog->image, 'blog') }}" alt="blog">
+                                <img src="public/fileholder/img/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
                             </div>
                             <div class="blog-item-content">
                                 <div class="blog-item-top-content">
                                     <div class="title-area">
-                                        @foreach ($blog->lan_tags->language->$lang->tags ?? [] as $tag)
-                                        <a href="javascript:void()">#{{ $tag }}</a>
-                                        @endforeach
-
+                                        <a href="javascript:void()">#Design</a>
                                     </div>
                                     <div class="time-area">
-                                        <span><i class="las la-clock"></i>
-                                            {{ diffForHumans($blog->created_at) }}</span>
+                                        <span><i class="las la-clock"></i> 2 days ago</span>
                                     </div>
                                 </div>
-                                <h4 class="title"><a
-                                        href="{{ route('blog.details', ['id' => $blog->id, 'slug' => $blog->slug]) }}">{{
-                                        @$blog->name->language->$lang->name }}</a>
+                                <h4 class="title">
+                                    <a href="blog/gaming-gift-cards-the-perfect-present-for-gamers">Gaming Gift Cards: The Perfect Present for Gamers</a>
                                 </h4>
                                 <div class="blog-item-bottom-content">
                                     <div class="thumb-area">
                                         <div class="thumb">
-                                            {{-- @dd($blog->admin) --}}
-                                            <img src="{{ get_image(@$blog->admin->image, 'admin-profile') }}"
-                                                alt="blog">
+                                            <img src="public/fileholder/img/admin-profile.webp" alt="blog">
                                         </div>
                                         <div class="thumb-title">
-                                            <h5 class="thumb-title-text">{{ @$blog->admin->firstname }}
-                                                {{ @$blog->admin->lastname }}</h5>
-                                            <span>{{ date('d M Y', strtotime($blog->created_at)) }}</span>
+                                            <h5 class="thumb-title-text">Admin Name</h5>
+                                            <span>27 Oct 2024</span>
                                         </div>
                                     </div>
                                     <div class="blog-item-btn-area">
-                                        <a
-                                            href="{{ route('blog.details', ['id' => $blog->id, 'slug' => $blog->slug]) }}">{{
-                                            __('Read More') }}
-                                            <i class="las la-angle-right"></i></a>
+                                        <a href="blog/gaming-gift-cards-the-perfect-present-for-gamers">Read More <i class="las la-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    @empty
-                    <div class="text-center">
-                        <p>{{ __('Data Not Found') }}</p>
-                    </div>
-                    @endforelse
+
 
                 </div>
             </div>
@@ -83,7 +67,7 @@ $blogs = App\Models\Blog::get();
 
                                 @endphp
                                 @if ($blogCount > 0)
-                                <li><a href="{{ setRoute('blog.by.category', [$cat->id, $cat->slug]) }}">
+                                <li><a href="#">
                                         {{ __(@$cat->data->language->$lang->name) }}<span>{{ @$blogCount }}</span></a>
                                 </li>
                                 @else
@@ -98,22 +82,20 @@ $blogs = App\Models\Blog::get();
                     <div class="widget-box mb-30">
                         <h4 class="widget-title">{{ __('Recent Posts') }}</h4>
                         <div class="popular-widget-box">
-                            @foreach ($recentPost as $post)
                             <div class="single-popular-item d-flex flex-wrap align-items-center">
                                 <div class="popular-item-thumb">
-                                    <a href="{{ route('blog.details', [$post->id, @$post->slug]) }} "><img
-                                            src="{{ get_image(@$post->image, 'blog') }}" alt="blog"></a>
+                                    <a href="blog/gaming-gift-cards-the-perfect-present-for-gamers">
+                                        <img src="public/fileholder/img/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
+                                    </a>
                                 </div>
                                 <div class="popular-item-content">
-                                    <span class="date">{{ $post->created_at->diffForHumans() }}</span>
-                                    <h5 class="title"><a
-                                            href="{{ route('blog.details', [$post->id, @$post->slug]) }}">{{
-                                            @$post->name->language->$lang->name }}</a>
+                                    <span class="date">2 days ago</span>
+                                    <h5 class="title">
+                                        <a href="blog/gaming-gift-cards-the-perfect-present-for-gamers">Gaming Gift Cards: The Perfect Present for Gamers</a>
                                     </h5>
-
                                 </div>
                             </div>
-                            @endforeach
+
                         </div>
                     </div>
                     <div class="widget-box">
@@ -131,7 +113,7 @@ $blogs = App\Models\Blog::get();
         </div>
         <nav>
             <ul class="pagination">
-                {{ get_paginate($blogs) }}
+                {{-- {{ get_paginate($blogs) }} --}}
             </ul>
         </nav>
     </div>
