@@ -33,7 +33,7 @@
                                     <div class="statistics-content">
                                         <div class="odo-area">
                                             <h3 class="odo-title odometer" data-odometer-final="2024">0</h3>
-                                            <h3 class="title">2.0K</h3>
+                                            <h3 class="title"></h3>
                                         </div>
                                         <p>Total Pengguna</p>
                                     </div>
@@ -44,7 +44,7 @@
                                     <div class="statistics-content">
                                         <div class="odo-area">
                                             <h3 class="odo-title odometer" data-odometer-final="1000">0</h3>
-                                            <h3 class="title">1.0K</h3>
+                                            <h3 class="title"></h3>
                                         </div>
                                         <p>Total Transaksi</p>
                                     </div>
@@ -55,7 +55,7 @@
                                     <div class="statistics-content">
                                         <div class="odo-area">
                                             <h3 class="odo-title odometer" data-odometer-final="800">0</h3>
-                                            <h3 class="title">800</h3>
+                                            <h3 class="title"></h3>
                                         </div>
                                         <p>Negara Tersedia</p>
                                     </div>
