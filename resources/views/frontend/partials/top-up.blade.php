@@ -17,7 +17,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -39,7 +39,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -61,7 +61,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -83,7 +83,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -105,7 +105,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -127,7 +127,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -149,7 +149,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -171,7 +171,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -193,7 +193,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -215,7 +215,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -237,7 +237,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>
@@ -259,7 +259,7 @@
                     <a href="top-up-game/8-ball-pool">
                         <div class="topup-item">
                             <div class="topup-thumb">
-                                <img src="public/fileholder/img/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
+                                <img src="backend/images/top-up-game/0e1de3d0-0786-462a-8590-0d5626409070.webp" alt="topup">
                             </div>
                             <div class="topup-content">
                                 <h5 class="title">8 Ball Pool</h5>

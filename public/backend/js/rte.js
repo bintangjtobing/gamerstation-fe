@@ -9,30 +9,30 @@
  RTE_DefaultConfig.editablePaddingBottom = 2;
  RTE_DefaultConfig.editablePaddingLeft = 2;
  RTE_DefaultConfig.editablePaddingRight = 2;
- 
+
  RTE_DefaultConfig.zIndexFullPage = "9999";
  RTE_DefaultConfig.zIndexFloat = "99999";
  RTE_DefaultConfig.zIndexDialog = "999999";
  RTE_DefaultConfig.zIndexDropDown = "9999999";
- 
+
  RTE_DefaultConfig.fontNameDropDownMinWidth = "90px";
  RTE_DefaultConfig.fontNameDropDownMaxWidth = "140px";
- 
+
  RTE_DefaultConfig.tooltipAttribute = "rte-tooltip";    //change to "no-tooltip" to hide tooltip
- 
+
  RTE_DefaultConfig.timeoutAddToUndo = 900; //When uses types fast, wait 900ms to add undo item.
  RTE_DefaultConfig.skin = "default";     // default, rounded-corner, gray or blue. Sets the skin for how the toolbar is draw. Create your custom skin or choose from predefined skins.
  RTE_DefaultConfig.toolbar = "default"; // default, basic or full. Auto configures the toolbar with a set of buttons on desktop.
- RTE_DefaultConfig.toolbarMobile = "mobile";   // The toolbar set on mobile devices. 
+ RTE_DefaultConfig.toolbarMobile = "mobile";   // The toolbar set on mobile devices.
  RTE_DefaultConfig.maxWidthForMobile = 992; // When the screen (browser window) gets smaller than 992, editor should have mobile toolbar.
- 
+
  RTE_DefaultConfig.urlType = "default";  //default(do nothing),absolute(all change to http(s)://...),relative(all change to /...)
- 
+
  RTE_DefaultConfig.enableDragDrop = true; // Enables or disables drag-and-drop support for the editor.
  RTE_DefaultConfig.enableObjectResizing = true; //Specifies whether or not to allow the users resize an object winthin the RichTextEditor.
  RTE_DefaultConfig.toggleBorder = true; //Specifies the ToggleBorder state. ToggleBorder is a handy function which allows you to see the borders without setting things to border = 1 or something like that in code.
  RTE_DefaultConfig.readOnly = false; //Gets or sets a value which indicates whether the RichTextEditor should be an active HTML editor, or a read-only document viewer.
- 
+
  RTE_DefaultConfig.editorResizeMode = "both"; //both, height or none. Gets or sets the resize mode.
  RTE_DefaultConfig.showPlusButton = true; // Specifies whether to display the editor plus button.
  RTE_DefaultConfig.showTagList = true; // Specifies whether to display the tag selector in the editor bottom bar.
@@ -49,12 +49,12 @@
  RTE_DefaultConfig.maxTextLength = 0; //Gets or sets the maximum number of characters excluding the HTML tags allowed in the RichTextEditor. Default is -1, indicating no maximum.
  RTE_DefaultConfig.tagWhiteList = [];  // The white list contains a list of tags that can be used in the editor.
  RTE_DefaultConfig.tagBlackList = [];  // The black list contains a list of tags that cannot be used in the editor.
- 
+
  RTE_DefaultConfig.tabSpaces = 4;	//Gets or sets the number of spaces to be inserted when the user hits the "tab" key.
  RTE_DefaultConfig.enterKeyTag = "p" // Determines what happens when the "enter" key is pressed in the editor. div, p or br.
- 
+
  RTE_DefaultConfig.pasteMode = "Auto"; // Specifies the manner in which the editor handles pasted text. Auto,Disabled,PasteText,PasteWord.
- 
+
  RTE_DefaultConfig.floatParagraphPos = "left";//left or right
  RTE_DefaultConfig.floatParagraphPosX = 0; //x offset
  RTE_DefaultConfig.floatParagraphPosY = 0; //y offset
@@ -63,52 +63,52 @@
  RTE_DefaultConfig.previewCssUrl = "%url_base%/runtime/richtexteditor_preview.css"; // Specifies the location of the style sheet that will be used by the preview window.
  RTE_DefaultConfig.previewScriptUrl = "%url_base%/runtime/richtexteditor_preview.js"; // Specifies the location of javascript file that will be used by the preview window.
  RTE_DefaultConfig.helpUrl = "%url_base%/runtime/help.htm"
- 
+
  RTE_DefaultConfig.contentCssText = "";//"body{background-color:#eee}"; 	Gets or sets inline CSS text that will be used by the editable area. 	//TODO:add api example
  RTE_DefaultConfig.previewCssText = "";//"body{background-color:#eee}"; 	Gets or sets inline CSS text that will be used by the preview window. //TODO:add api example
- 
+
  RTE_DefaultConfig.editorBodyCssClass = "";  //Gets or sets the class of editing area to switch styles.
  RTE_DefaultConfig.editorBodyCssText = "";   // Gets or sets inline CSS text that will be used by the editable body.
- 
+
  RTE_DefaultConfig.paragraphClass = null;	// auto add class name to new paragraphs
  RTE_DefaultConfig.insertTableTag = "<table></table>"; // Default table attributes when inserting a table.
  RTE_DefaultConfig.insertRowTag = "<tr></tr>"; // Default row attributes when creating table row.
  RTE_DefaultConfig.insertCellTag = "<td><br/></td>"; // Default cell attributes when inserting a cell.
- 
- 
- 
+
+
+
  RTE_DefaultConfig.insertOrderedListItems = [["decimal", "1,2,3,4,5"], ["lower-alpha", "a,b,c,d,e"], ["upper-alpha", "A,B,C,D,E"], ["lower-roman", "ⅰ,ⅱ,ⅲ,ⅳ,ⅴ"], ["upper-roman", "Ⅰ,Ⅱ,ⅢⅢ,Ⅳ,Ⅴ"]];
- 
+
  RTE_DefaultConfig.insertUnorderedListItems = [["disc", "Disc"], ["circle", "Circle"], ["square", "Square"]];
- 
+
  RTE_DefaultConfig.fontSizeItems = "8,9,10,11,12,13,14,16,18,24,36,48,60,72,96";// A predefined set of font sizes.
  RTE_DefaultConfig.fontNameItems = "Arial,Arial Black,Comic Sans MS,Courier New,Tahoma,Georgia,Helvetica, Segoe UI,Sans-Serif,Impact,Times New Roman,Verdana";// A predefined set of font names.
  RTE_DefaultConfig.lineHeightItems = "100%,150%,200%,250%,300%,350%,400%,450%,500%,600%"// A predefined set of line height items.
  // all text name shall be lower case
- 
- 
+
+
  RTE_DefaultConfig.paragraphItems = "Normal,H1,H2,H3,H4,H5,H6"// A predefined set of format blocks.
- 
+
  RTE_DefaultConfig.characterItems = [
 	 { tab: "Unicode", items: ["&#402;", "&#913;", "&#914;", "&#915;", "&#916;", "&#917;", "&#918;", "&#919;", "&#920;", "&#921;", "&#922;", "&#923;", "&#924;", "&#925;", "&#926;", "&#927;", "&#928;", "&#929;", "&#931;", "&#932;", "&#933;", "&#934;", "&#935;", "&#936;", "&#937;", "&#945;", "&#946;", "&#947;", "&#948;", "&#949;", "&#950;", "&#951;", "&#952;", "&#953;", "&#954;", "&#955;", "&#956;", "&#957;", "&#958;", "&#959;", "&#960;", "&#961;", "&#962;", "&#963;", "&#964;", "&#965;", "&#966;", "&#967;", "&#968;", "&#969;", "&#977;", "&#978;", "&#982;", "&#8226;", "&#8230;", "&#8242;", "&#8243;", "&#8254;", "&#8260;", "&#8472;", "&#8465;", "&#8476;", "&#8482;", "&#8501;", "&#8592;", "&#8593;", "&#8594;", "&#8595;", "&#8596;", "&#8629;", "&#8656;", "&#8657;", "&#8658;", "&#8659;", "&#8660;", "&#8704;", "&#8706;", "&#8707;", "&#8709;", "&#8711;", "&#8712;", "&#8713;", "&#8715;", "&#8719;", "&#8722;", "&#8722;", "&#8727;", "&#8730;", "&#8733;", "&#8734;", "&#8736;", "&#8869;", "&#8870;", "&#8745;", "&#8746;", "&#8747;", "&#8756;", "&#8764;", "&#8773;", "&#8773;", "&#8800;", "&#8801;", "&#8804;", "&#8805;", "&#8834;", "&#8835;", "&#8836;", "&#8838;", "&#8839;", "&#8853;", "&#8855;", "&#8869;", "&#8901;", "&#8968;", "&#8969;", "&#8970;", "&#8971;", "&#9001;", "&#9002;", "&#9674;", "&#9824;", "&#9827;", "&#9829;", "&#9830;"] }
 	 , { tab: "ASCII", from: 33, to: 126 }
 	 , { tab: "European", from: 192, to: 255 }
 	 , { tab: "Roma", from: 913, to: 1014 }
 	 , { tab: "Webdings", font: "Webdings", from: 33, to: 255 }, { tab: "Wingdings", font: "Wingdings", from: 33, to: 255 }, { tab: "Symbol", font: "Symbol", from: 33, to: 255 }]; // A predefined set of characters.
- 
- 
+
+
  RTE_DefaultConfig.foreColorItems = ["#000000", "#993300", "#333300", "#003300", "#003366", "#000080", "#333399", "#333333",
 	 "#800000", "#ff6600", "#808000", "#008000", "#008080", "#0000ff", "#666699", "#808080",
 	 "#ff0000", "#ff9900", "#99cc00", "#339966", "#33cccc", "#3366ff", "#800080", "#999999",
 	 "#ff00ff", "#ffcc00", "#ffff00", "#00ff00", "#00ffff", "#00ccff", "#993366", "#c0c0c0",
 	 "#ff99cc", "#ffcc99", "#ffff99", "#ccffcc", "#ccffff", "#99ccff", "#cc99ff", "#ffffff"];
- 
+
  RTE_DefaultConfig.backColorItems = ["#000000", "#993300", "#333300", "#003300", "#003366", "#000080", "#333399", "#333333",
 	 "#800000", "#ff6600", "#808000", "#008000", "#008080", "#0000ff", "#666699", "#808080",
 	 "#ff0000", "#ff9900", "#99cc00", "#339966", "#33cccc", "#3366ff", "#800080", "#999999",
 	 "#ff00ff", "#ffcc00", "#ffff00", "#00ff00", "#00ffff", "#00ccff", "#993366", "#c0c0c0",
 	 "#ff99cc", "#ffcc99", "#ffff99", "#ccffcc", "#ccffff", "#99ccff", "#cc99ff", "#ffffff"];
- 
+
  RTE_DefaultConfig.linkItems = [
 	 "https://www.intel.com"
 	 ,
@@ -120,7 +120,7 @@
 	 ,
 	 "https://www.apple.com"
  ] // A predefined set of links.
- 
+
  RTE_DefaultConfig.imageItems = [
 	 "http://richtexteditor.com/uploads/1.jpg",
 	 "http://richtexteditor.com/uploads/2.jpg",
@@ -129,8 +129,8 @@
 	 "http://richtexteditor.com/uploads/5.jpg",
 	 "http://richtexteditor.com/uploads/6.jpg"
  ]	// For insert image by URL
- 
- 
+
+
  RTE_DefaultConfig.galleryImages = [
 	 "http://richtexteditor.com/uploads/1.jpg",
 	 "http://richtexteditor.com/uploads/2.jpg",
@@ -138,46 +138,46 @@
 	 "http://richtexteditor.com/uploads/4.jpg",
 	 "http://richtexteditor.com/uploads/5.jpg",
 	 "http://richtexteditor.com/uploads/6.jpg"
- ]; // Default images for gallery Images dialog. 
- 
+ ]; // Default images for gallery Images dialog.
+
  RTE_DefaultConfig.htmlTemplates = [
 	 ["My Doc 1", "<h2>MyTitleMyTitleMyTitleMyTitleMyTitleMyTitleMyTitle</h2><p>Paragraph 1 </p><p>Paragraph 2 </p><p>Paragraph 3 </p><p>Paragraph 4 </p><p>Paragraph 5 </p>"]
 	 ,
 	 ["My Doc 1", "<h2>MyTitleMyTitleMyTitle</h2><p>Paragraph 1 </p><p>Paragraph 2 </p><p>Paragraph 3 </p><p>Paragraph 4 </p><p>Paragraph 5 </p>"]
- ];// Default html Templates for html Templates dialog. 
- 
- 
- RTE_DefaultConfig.inlineStyles = [["Red", "color:red", "color:red"], ["Bold", "font-weight:bold", "font-weight:bold"], ["Mark", "my-cls-mark"], ["Warning", "my-cls-warning"]]; // Default CSS styles for inline styles dropdown. 
- RTE_DefaultConfig.paragraphStyles = [["Red", "color:red", "color:red"], ["Bold", "font-weight:bold", "font-weight:bold"], ["Quote", "my-cls-quote"], ["LargeCenter", "my-cls-largecenter"]]; // Default CSS styles for paragraph styles dropdown. 
+ ];// Default html Templates for html Templates dialog.
+
+
+ RTE_DefaultConfig.inlineStyles = [["Red", "color:red", "color:red"], ["Bold", "font-weight:bold", "font-weight:bold"], ["Mark", "my-cls-mark"], ["Warning", "my-cls-warning"]]; // Default CSS styles for inline styles dropdown.
+ RTE_DefaultConfig.paragraphStyles = [["Red", "color:red", "color:red"], ["Bold", "font-weight:bold", "font-weight:bold"], ["Quote", "my-cls-quote"], ["LargeCenter", "my-cls-largecenter"]]; // Default CSS styles for paragraph styles dropdown.
  RTE_DefaultConfig.imageStyles = [["Border", "border: 1px solid #ddd; border-radius: 4px; padding: 5px;"], ["grayscale", "filter: grayscale(100%);"], ["Shadow", "box-shadow:0 0 8px gray"], ["Margin10", "margin:10px"], ["Padding:10", "padding:10px"]
-	 , ["Rounded Corners", "border-radius: 10px;"], ["Rounded Images", "border-radius: 50%;"], ["Thumbnail Image", "border: 1px solid #ddd; border-radius: 4px; padding: 5px;width:150px"]// Default CSS styles for image Styles dropdown. 
+	 , ["Rounded Corners", "border-radius: 10px;"], ["Rounded Images", "border-radius: 50%;"], ["Thumbnail Image", "border: 1px solid #ddd; border-radius: 4px; padding: 5px;width:150px"]// Default CSS styles for image Styles dropdown.
  ];
- RTE_DefaultConfig.linkStyles = [["Margin10", "margin:10px"], ["Padding:10", "padding:10px"], ["BigText", "font-size:36px"]]; // Default CSS styles for link Styles dropdown. 
- 
- 
- 
- 
+ RTE_DefaultConfig.linkStyles = [["Margin10", "margin:10px"], ["Padding:10", "padding:10px"], ["BigText", "font-size:36px"]]; // Default CSS styles for link Styles dropdown.
+
+
+
+
  RTE_DefaultConfig.toolbar_default = "{bold,italic,underline,forecolor,backcolor}|{justifyleft,justifycenter,justifyright,justifyfull}|{insertorderedlist,insertunorderedlist,indent,outdent,insertblockquote,insertemoji}"
 	 + " #{paragraphs:toggle,fontname:toggle,fontsize:toggle,inlinestyle,lineheight}"
 	 + " / {removeformat,cut,copy,paste,delete,find}|{insertlink,insertchars,inserttable,insertimage,insertvideo,insertdocument,inserttemplate,insertcode}|{preview,code,selectall}"
 	 + "#{toggleborder,fullscreenenter,fullscreenexit,undo,redo,togglemore}"; // Default set of buttons that appears in the rich text editor's toolbar on desktop.
- 
+
  RTE_DefaultConfig.toolbar_mobile = "{bold,italic,underline|fontname:toggle,fontsize:toggle,menu_paragraphop|forecolor,backcolor}"
 	 + "{insertlink,insertemoji,inserttable,insertimage,removeformat}"
 	 + "#{toggleborder,fullscreenenter,fullscreenexit,undo,redo,togglemore}";  // Default set of buttons that appears in the rich text editor's toolbar on mobile.
- 
+
  RTE_DefaultConfig.toolbar_basic = "{bold,italic,underline}|{fontname,fontsize}|{insertlink,insertemoji,insertimage,insertvideo}|removeformat|code"
 	 + "#{toggleborder,fullscreenenter,fullscreenexit,undo,redo,togglemore}"; // Basic set of buttons that appears in the rich text editor's toolbar.
- 
+
  RTE_DefaultConfig.toolbar_full = "{bold,italic,underline,forecolor,backcolor}|{justifyleft,justifycenter,justifyright,justifyfull}|{insertorderedlist,insertunorderedlist,indent,outdent}{superscript,subscript}"
 	 + " #{paragraphs:toggle,fontname:toggle,fontsize:toggle,inlinestyle,lineheight}"
 	 + " / {removeformat,cut,copy,paste,delete,find}|{insertlink,unlink,insertblockquote,insertemoji,insertchars,inserttable,insertimage,insertgallery,insertvideo,insertdocument,inserttemplate,insertcode}"
 	 + "#{preview,code,selectall}"
 	 + " /{paragraphs:dropdown | fontname:dropdown | fontsize:dropdown} {paragraphstyle,toggle_paragraphop,menu_paragraphop}"
 	 + "#{toggleborder,fullscreenenter,fullscreenexit,undo,redo,togglemore}"; // Full set of buttons that appears in the rich text editor's toolbar.
- 
+
  RTE_DefaultConfig.toolbar_office = "<@COMMON,ribbonpaste,pastetext,pasteword,{save,new,print}/{cut,copy,delete,find}/{undo,redo|formatpainter}><@FORMAT,[fontname,fontsize]/{bold,italic,underlinemenu|forecolor,backcolor}/{superscript,subscript,changecase|removeformat,cleancode,selectall}><@PARAGRAPHS,[paragraphs,styles]/{justifymenu,lineheight,ltr,rtl,insertlinemenu}/{insertorderedlist,insertunorderedlist,indent,outdent,insertblockquote}><@INSERT,ribbontable,insertgallery,insertimage,{insertform,insertbox,insertlayer,insertfieldset,pageproperties,help,toggleborder,fullscreen}/{insertlink,unlink,insertanchor,insertimagemap,insertdate,insertchars,virtualkeyboard}/{inserttemplate,insertdocument,insertvideo,syntaxhighlighter,insertyoutube,html5,googlemap}>";
- 
+
  RTE_DefaultConfig.subtoolbar_more = "{strike,superscript,subscript,ucase,lcase,inserthorizontalrule,html2pdf,insertdate} #{newdoc,load,save,print,help}"; // A set of buttons that appears in the subtoolbar of default toolbar set.
  RTE_DefaultConfig.subtoolbar_more_full = "{strike,ucase,lcase,inserthorizontalrule,html2pdf,insertdate} #{newdoc,save,print,help}";// A set of buttons that appears in the subtoolbar of full toolbar set.
  RTE_DefaultConfig.subtoolbar_more_mobile = "{save} #{newdoc,help}"; // A set of buttons that appears in the subtoolbar of mobile toolbar set.
@@ -193,12 +193,12 @@
  RTE_DefaultConfig.subtoolbar_justify = "justifyleft,justifycenter,justifyright";  // A set of buttons that appears in the justify subtoolbar.
  RTE_DefaultConfig.subtoolbar_controljustify = "justifyleft,justifycenter,justifyright,floatleft,floatright";  // A set of buttons that appears in the controljustify subtoolbar.
  RTE_DefaultConfig.subtoolbar_floatparagraph = "pmoveup,pmovedown,pduplicate,pdelete,pmore"; // The default tool buttons of floatparagraph.
- 
+
  RTE_DefaultConfig.controltoolbar_TEXT = "removeformat | {bold,italic,underline,forecolor,backcolor}|{fontname:toggle,fontsize:toggle}|{insertlink,insertanchor}"  // A set of buttons that appears in the text selection float toolbar.
  RTE_DefaultConfig.controltoolbar_A = "{linkstyle,insertlink,unlink}"; // A set of buttons that appears in the link selection float toolbar.
  RTE_DefaultConfig.controltoolbar_TD = "{tableheader,menu_tablecell,menu_tablerow,menu_tablecolumn,menu_table}";//"{menu_tablecell,menu_tableinsert,menu_tabledelete,menu_table}",
  RTE_DefaultConfig.controltoolbar_IMG = "{menu_controlsize,imagecaption,controlalt,controlinsertlink,controleditlink,controlopenlink,controlunlink}/{menu_controljustify,imagestyle,imageeditor,delete}";//justifyleft,justifycenter,justifyright
- 
+
  //RTE_DefaultConfig.svgCode_menu_tablerow='<svg viewBox="0 0 20 20" fill="#5F6368"><path d="M10.21 15c2.106 0 3.412-1.087 3.412-2.823 0-1.306-.984-2.283-2.324-2.386v-.055a2.176 2.176 0 001.852-2.14c0-1.51-1.162-2.46-3.014-2.46H5.843V15h4.368zM7.908 6.674h1.696c.963 0 1.517.451 1.517 1.244 0 .834-.629 1.32-1.73 1.32H7.908V6.673zm0 6.788v-2.864h1.73c1.216 0 1.88.492 1.88 1.415 0 .943-.643 1.449-1.832 1.449H7.907z"/></svg>';
  RTE_DefaultConfig.pngCode_ribbonbg = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAABiCAYAAAB+koVqAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAACB0RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgTVi7kSokAAAAFnRFWHRDcmVhdGlvbiBUaW1lADA1LzA2LzEynpvHdgAAAeNJREFUeJzt3bFtw0AUBcFP4/qv1InhRA4kOaAauE0IAjMVMFs8no46vn8e7wGATWtm5vfxvPo5ALiZNTPzfBkhAOxZMzPvt4AAsOcTkKsfA4C7OQNy9VMAcDteYQGQeIUFQCIgACSfMxAFAWCPBQJAIiAAJH6FBUCyZmZeVz8FALezZmYefz6mCMAeN9EBSL6ufgAA7klAAEgEBIBkzcwcVz8FALdjgQCQCAgAiYAAkKyZcQgCwDaH6AAkXmEBkAgIAIlXWAAkZ0AOCQFgj1dYACQCAkDiHggAiUN0ABILBIDEGQgAiYAAkDgDASCxQABIBASAREAASAQEgMQhOgCJi4QAJF5hAZBYIAAkFggAiYAAkAgIAImAAJCch+hO0QHYZIEAkAgIAIlPmQCQWCAAJJ+b6DYIAHssEAASAQEgERAAEgEBIBEQABL3QABILBAAEgEBIPGXtgAkFggAiQUCQGKBAJAICACJgACQCAgAiZvoACQWCACJBQJAYoEAkAgIAImAAJAICACJgACQCAgAiYAAkAgIAMl5kfBwlRCAPRYIAImAAJAICACJgACQrJnxOV4AtlkgACTnAjFBANhkgQCQCAgAib+0BSCxQABIBASAxD0QABILBIBEQABIBASA5B+/giW9vHXuqwAAAABJRU5ErkJggg==';
  RTE_DefaultConfig._allimageindexdata = 'save,newdoc,print,find,fit,cleanup,unformat,spell,cut,copy,paste,pastetext,pasteword,delete,undo,redo,insertpagebreak,insertdate,timer,specialchar,keyboard,div,layer,groupbox,image,gallery,flash,media,document,template,youtube,insrow_t,insrow_b,delrow,inscol_l,inscol_r,delcol,inscell,delcell,row,cell,mrgcell,spltcell,break,paragraph,textarea,textbox,passwordfield,hiddenfield,listbox,dropdownbox,optionbutton,checkbox,imagebutton,submit,reset,pushbutton,page,bold,italic,under,left,center,right,justifyfull,justifynone,numlist,bullist,indent,outdent,superscript,subscript,strike,ucase,lcase,rule,link,unlink,anchor,imagemap,borders,selectall,selectnone,help,code,overline,forecolor,backcolor,inserttable,insertform,blockquote,formatpainter,lineheight,dir_ltr,dir_rtl,preview,design,htmlview,map,topline,bottomline,html5';
@@ -206,13 +206,13 @@
 	 + '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';
- 
+
  RTE_DefaultConfig.svgCode_default = '<svg viewBox="2 1 20 20"><path d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z"/></svg>';
  RTE_DefaultConfig.svgCode_empty = '<svg viewBox="0 0 20 20"></svg>';
  RTE_DefaultConfig.svgCode_close = '<svg width="24" height="24"><path d="M17.953 7.453L13.422 12l4.531 4.547-1.406 1.406L12 13.422l-4.547 4.531-1.406-1.406L10.578 12 6.047 7.453l1.406-1.406L12 10.578l4.547-4.531z" fill-rule="evenodd"/></svg>';
  RTE_DefaultConfig.svgCode_DialogClose = '<svg viewBox="0 0 18 18"><path fill="currentColor" d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"/></svg>';
- 
- 
+
+
  RTE_DefaultConfig.svgCode_bold = '<svg viewBox="-2 -2 20 20" fill="#5F6368"><path d="M8.21 13c2.106 0 3.412-1.087 3.412-2.823 0-1.306-.984-2.283-2.324-2.386v-.055a2.176 2.176 0 001.852-2.14c0-1.51-1.162-2.46-3.014-2.46H3.843V13H8.21zM5.908 4.674h1.696c.963 0 1.517.451 1.517 1.244 0 .834-.629 1.32-1.73 1.32H5.908V4.673zm0 6.788V8.598h1.73c1.217 0 1.88.492 1.88 1.415 0 .943-.643 1.449-1.832 1.449H5.907z"/></svg>';
  RTE_DefaultConfig.svgCode_italic = '<svg viewBox="-2 -2 20 20" fill="#5F6368"><path d="M7.991 11.674L9.53 4.455c.123-.595.246-.71 1.347-.807l.11-.52H7.211l-.11.52c1.06.096 1.128.212 1.005.807L6.57 11.674c-.123.595-.246.71-1.346.806l-.11.52h3.774l.11-.52c-1.06-.095-1.129-.211-1.006-.806z"/></svg>';
  RTE_DefaultConfig.svgCode_underline = '<svg viewBox="-2 -2 20 20" fill="#5F6368"><path d="M5.313 3.136h-1.23V9.54c0 2.105 1.47 3.623 3.917 3.623s3.917-1.518 3.917-3.623V3.136h-1.23v6.323c0 1.49-.978 2.57-2.687 2.57-1.709 0-2.687-1.08-2.687-2.57V3.136z"/><path fill-rule="evenodd" d="M12.5 15h-9v-1h9v1z" clip-rule="evenodd"/></svg>';
@@ -249,10 +249,10 @@
  RTE_DefaultConfig.svgCode_pastetext = '<svg viewBox="-2 -2 20 20" fill="#5F6368"><path d="M13 6v-4h-4c0-1.103-.897-2-2-2s-2 .897-2 2h-4v13h6v1h8v-10h-2zm-7-3v-1c0-.551.449-1 1-1s1 .449 1 1v1h2v1h-6v-1h2zm-4 11v-11h1v2h8v-2h1v3h-5v8h-5zm12 1h-6v-8h6v8z"/><rect x="9" y="11.7" width="4.1" height="0.8"/><rect x="9" y="8.9" width="4.1" height="0.8"/></svg>';
  RTE_DefaultConfig.svgCode_pasteword = '<svg viewBox="-3 -3 24 24" fill="#5F6368"><g fill="none" fill-rule="evenodd"><path fill="#4285F4" fill-rule="nonzero" d="M16 0H2C.9 0 0 .9 0 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm-3.5 14H11L9 6.5 7 14H5.5L3.1 4h1.7l1.54 7.51L8.3 4h1.4l1.97 7.51L13.2 4h1.7l-2.4 10z"/><path d="M-3-3h24v24H-3V-3zm0 0h24v24H-3V-3z"/></svg>';
  RTE_DefaultConfig.svgCode_pasteauto = RTE_DefaultConfig.svgCode_paste;
- 
+
  RTE_DefaultConfig.svgCode_save = '<svg viewBox="-2 -2 36 36" fill="#5F6368"><path d="M27.71,9.29l-5-5A1,1,0,0,0,22,4H6A2,2,0,0,0,4,6V26a2,2,0,0,0,2,2H26a2,2,0,0,0,2-2V10A1,1,0,0,0,27.71,9.29ZM12,6h8v4H12Zm8,20H12V18h8Zm2,0V18a2,2,0,0,0-2-2H12a2,2,0,0,0-2,2v8H6V6h4v4a2,2,0,0,0,2,2h8a2,2,0,0,0,2-2V6.41l4,4V26Z"/></svg>';
  RTE_DefaultConfig.svgCode_load = '<svg  viewBox="-2 -2 20 20"><g><path fill="#f6f6f6" d="M16 1H3v5H0v9h13v-5h3z"/></g><g id="icon_x5F_bg"><path fill="none" d="M11 8H2v5h9V8zm-2 3H4v-1h5v1z"/><path fill="#424242" d="M4 10h5v1H4zM4 2v4h1V3h9v5h-1v1h2V2z"/><path fill="#424242" d="M1 14h11V7H1v7zm1-6h9v5H2V8zM7 5h5v1H7z"/></g><g id="icon_x5F_fg"><path fill="none" d="M4 10h5v1H4z"/><path fill="#f0eff1" d="M5 3v3h2V5h5v1h1v2h1V3zM2 13h9V8H2v5zm2-3h5v1H4v-1z"/></g></svg>';
- 
+
  RTE_DefaultConfig.svgCode_fontname = '<svg viewBox="-2 -2 20 20" fill="#5F6368"><path d="M5,6h1L4,1H3L1,6h1l0.4-1h2.2L5,6z M2.8,4l0.7-1.8L4.2,4H2.8z M15,15H5v-1h10V15z M14.4,12.8c-0.2,0-0.4-0.2-0.4-0.4V5h-0.3L7,11.7c0,0-1,1-1.5,1V13H8v-0.3H7.6c-0.2,0-0.5-0.4,0.2-1L9,10.5h3v1.9c0,0.2-0.2,0.4-0.4,0.4c0,0,0,0,0,0h-0.4V13h3.5v-0.3H14.4z M9.5,10L12,7.5V10H9.5z M2.4,12.4l-0.7-0.7l10-10l0.7,0.7L2.4,12.4z"/></svg>';
  RTE_DefaultConfig.svgCode_fontsize = '<svg viewBox="-2 -2 20 20" fill="#5F6368"><polygon points="7.9,4.2 5.6,1.8 3.2,4.2 2.8,3.7 5.6,0.9 8.4,3.7 "/><polygon points="5.6,8.7 2.8,5.9 3.2,5.5 5.6,7.8 7.9,5.5 8.4,5.9 "/><path d="M15,14.6l-0.8-2.5H9.8L9,14.6H7.5l3.7-11h1.7l3.7,11H15z M13.7,10.6l-1.7-5l-1.7,5H13.7z"/></svg>';
  RTE_DefaultConfig.svgCode_redo = '<svg viewBox="-2 -2 36 36" fill="#5F6368"><path d="M9,15c-2.5,0-4,1.5-4,4c0,2.5,1.5,4,4,4h5v2H9c-3.5,0-6-2.5-6-6c0-3.5,2.5-6,6-6h16.2l-4-4l1.4-1.5L29,14	l-6.4,6.4L21.2,19l4-4H9z"/></svg>';
@@ -277,7 +277,7 @@
  RTE_DefaultConfig.svgCode_menu_tablecell = '<svg viewBox="-1 -1 18 18" fill="#5F6368"><path d="M2,2v11h12V2H2z M3,3h3v3H3V3z M3,12V7h3v5H3z M7,6V3h6v3H7z"/><path fill="#F0EFF1" d="M13,6H7V3h6V6z M6,3H3v3h3V3z M6,7H3v5h3V7z"/></svg>';
  RTE_DefaultConfig.svgCode_menu_tablerow = '<svg viewBox="-2 -2 20 20"><path fill="#F0EFF1" d="M7,13h3v-2H7V13z M7,10h3V8H7V10z M7,7h3V5H7V7z M11,13h3v-2h-3V13z M11,10h3V8h-3V10z M11,5v2h3V5H11z"/><path fill="#666666" d="M11,8h3v2h-3V8z M7,10h3V8H7V10z M3,8v2h3V8H3z"/><path fill="#5F6368" d="M2,2v12h13V2H2z M6,13H3v-2h3V13z M6,10H3V8h3V10z M6,7H3V5h3V7z M10,13H7v-2h3V13z M10,10H7V8h3V10z M10,7H7V5h3V7z M14,13h-3v-2h3V13z M14,10h-3V8h3V10z M14,7h-3V5h3V7z"/></svg>';
  RTE_DefaultConfig.svgCode_menu_tablecolumn = '<svg viewBox="-2 -2 20 20"><g><path fill="#F0EFF1" d="M7,13h3v-2H7V13z M7,10h3V8H7V10z M7,7h3V5H7V7z M11,13h3v-2h-3V13z M11,10h3V8h-3V10z M11,5v2h3V5H11z"/><path fill="#666666" d="M7,11h3v2H7V11z M7,10h3V8H7V10z M7,5v2h3V5H7z"/></g><g><path fill="#5F6368" d="M2,2v12h13V2H2z M6,13H3v-2h3V13z M6,10H3V8h3V10z M6,7H3V5h3V7z M10,13H7v-2h3V13z M10,10H7V8h3V10z M10,7H7V5h3V7z M14,13h-3v-2h3V13z M14,10h-3V8h3V10z M14,7h-3V5h3V7z"/></g></svg>';
- 
+
  RTE_DefaultConfig.svgCode_menu_table = RTE_DefaultConfig.svgCode_inserttable;
  RTE_DefaultConfig.svgCode_camera = '<svg viewBox="-2 -2 24 24" fill="#5F6368"><path fill-rule="nonzero" d="M5.6,0 L4.136,2.00333128 L1.6,2.00333128 C0.72,2.00333128 0,2.70333128 0,3.55888684 L0,12.4471661 C0,13.3027217 0.72,14.0027217 1.6,14.0027217 L14.4,14.0027217 C15.28,14.0027217 16,13.3027217 16,12.4471661 L16,3.55888684 C16,2.70333128 15.28,2.00333128 14.4,2.00333128 L11.864,2.00333128 L10.4,0 L5.6,0 Z M8,11.2 C5.792,11.2 4,9.52746667 4,7.46666667 C4,5.40586667 5.792,3.73333333 8,3.73333333 C10.208,3.73333333 12,5.40586667 12,7.46666667 C12,9.52746667 10.208,11.2 8,11.2 Z M8,9.8 C9.38071187,9.8 10.5,8.75533108 10.5,7.46666667 C10.5,6.17800225 9.38071187,5.13333333 8,5.13333333 C6.61928813,5.13333333 5.5,6.17800225 5.5,7.46666667 C5.5,8.75533108 6.61928813,9.8 8,9.8 Z" transform="translate(1 2)"/></svg>';
  RTE_DefaultConfig.svgCode_cut = '<svg viewBox="-2 -2 20 20" fill="#5F6368"><path d="M11.5,10c-0.4,0-0.8,0.1-1.2,0.3L9.8,9.8C9.9,9.6,10,9.3,10,9c0-0.5-0.2-1.1-0.6-1.4c0.9-1.7,2.1-3.6,2.3-4C11.8,3.2,12,2.9,12,2.5c0-0.3-0.1-0.6-0.4-0.8L11,1L8,7L5,1L4.4,1.6C4.1,1.9,4,2.2,4,2.5c0,0.4,0.2,0.7,0.4,1.1c0.2,0.4,1.3,2.4,2.3,4C6,8.1,5.8,9.1,6.2,9.8l-0.5,0.5C5.3,10.1,4.9,10,4.5,10C3.1,10,2,11.1,2,12.5C2,13.9,3.1,15,4.5,15C5.9,15,7,13.9,7,12.5c0-0.4-0.1-0.8-0.3-1.2l0.5-0.5c0.5,0.2,1.1,0.2,1.6,0l0.5,0.5C9.1,11.7,9,12.1,9,12.5c0,1.4,1.1,2.5,2.5,2.5	c1.4,0,2.5-1.1,2.5-2.5C14,11.1,12.9,10,11.5,10z M4.5,14C3.7,14,3,13.4,3,12.6c0,0,0,0,0,0C3,11.7,3.7,11,4.5,11C5.3,11,6,11.7,6,12.5C6,13.3,5.3,14,4.5,14C4.5,14,4.5,14,4.5,14z M8,10c-0.6,0-1-0.4-1-1s0.4-1,1-1s1,0.4,1,1S8.6,10,8,10z M11.5,14c-0.8,0-1.5-0.7-1.5-1.5c0,0,0,0,0,0c0-0.8,0.7-1.5,1.5-1.5s1.5,0.7,1.5,1.5S12.3,14,11.5,14C11.5,14,11.5,14,11.5,14	L11.5,14z"/></svg>';
@@ -304,7 +304,7 @@
  RTE_DefaultConfig.svgCode_plusbtn = '<svg viewBox="0 0 20 20" fill="#5F6368"><path d="M 9.9999997,4.3983051 A 0.62241054,0.62241054 0 0 0 9.3775887,5.0207156 V 9.3775893 H 5.0207156 a 0.62241067,0.62241067 0 0 0 0,1.2448207 h 4.3568731 v 4.356874 a 0.62241054,0.62241054 0 0 0 1.2448213,0 V 10.62241 h 4.356874 a 0.62241067,0.62241067 0 0 0 0,-1.2448207 H 10.62241 V 5.0207156 A 0.62241054,0.62241054 0 0 0 9.9999997,4.3983051 Z" clip-rule="evenodd"/></svg>'
  RTE_DefaultConfig.svgCode_imageupload = '<svg viewBox="0 0 16 16"><path fill="#f6f6f6" d="M13.212,4.614A5.025,5.025,0,0,0,8.43,1,4.948,4.948,0,0,0,4.666,2.751h-.1a4.625,4.625,0,0,0,0,9.25H6v2H9V12h3.3a3.757,3.757,0,0,0,.914-7.386Z"/><path fill="#424242" d="M15,8.25A2.73,2.73,0,0,1,12.3,11H9V10h3.3a1.75,1.75,0,0,0,0-3.5h-.859V6.063A3.037,3.037,0,0,0,8.43,3,3.005,3.005,0,0,0,5.622,4.988,2.521,2.521,0,0,0,4.561,4.75a2.625,2.625,0,0,0,0,5.25H6v1H4.561a3.626,3.626,0,0,1,0-7.25,3.461,3.461,0,0,1,.567.047,3.963,3.963,0,0,1,7.255,1.7A2.732,2.732,0,0,1,15,8.25Z"/><polygon fill="#00539c" points="9.854 8.146 7.5 5.793 5.146 8.146 5.854 8.854 7 7.707 7 13 8 13 8 7.707 9.146 8.854 9.854 8.146"/></svg>'
  RTE_DefaultConfig.svgCode_documentupload = RTE_DefaultConfig.svgCode_imageupload;
- 
+
  RTE_DefaultConfig.svgCode_tablecellmerge = '<svg viewBox="-2 -2 20 20"><path fill="#5F6368" d="M15,11.1c-0.1-0.1-0.3-0.1-0.4,0l-2.1,2.4l-2.1-2.4c-0.1-0.1-0.3-0.1-0.4,0c-0.1,0.1-0.1,0.4,0,0.5l2.3,2.7l0,0l0,0c0.1,0.1,0.2,0.1,0.3,0.1c0,0,0.1,0,0.1-0.1l2.3-2.7C15.2,11.5,15.2,11.3,15,11.1z"/><path d="M12.4,1.6H3c-0.5,0-0.8,0.4-0.8,1v10.9c0,0.5,0.4,1,0.8,1h7.3l0,0c0.2,0,0.3-0.1,0.3-0.3c0-0.2-0.1-0.3-0.3-0.3l0,0H5.7V5.1h6.9v5.6c0,0.2,0.1,0.3,0.3,0.3c0.2,0,0.3-0.1,0.3-0.3V2.5C13.2,2,12.8,1.6,12.4,1.6z M5.2,13.7H3c-0.2,0-0.3-0.1-0.3-0.3v-1.9h2.5V13.7z M5.2,10.9H2.7V8.3h2.5V10.9z M5.2,7.7H2.7V5.1h2.5V7.7z M5.2,4.5H2.7V2.5c0-0.2,0.1-0.3,0.3-0.3h2.2V4.5z M9.1,4.5H5.7V2.2h3.3L9.1,4.5L9.1,4.5z M12.7,4.5h-3V2.2h2.8c0.2,0,0.3,0.1,0.3,0.3V4.5z"/></svg>';;
  RTE_DefaultConfig.svgCode_tablecellsplitver = '<svg viewBox="-2 -2 20 20"><path fill="#5F6368" d="M2,7.6h12v0.8H2V7.6z M4.3,2.4H3.5v3.8h9V2.4h-0.8v3H4.3V2.4z M11.8,13.6h0.8V9.9h-9v3.8h0.8v-3h7.5L11.8,13.6L11.8,13.6z"/></svg>';
  RTE_DefaultConfig.svgCode_tablecellsplithor = '<svg viewBox="-2 -2 20 20"><path fill="#5F6368" d="M7.6,14V2h0.8v12H7.6z M2.4,11.7v0.8h3.8v-9H2.4v0.8h3v7.5H2.4z M13.6,4.2V3.5H9.9v9h3.8v-0.8h-3V4.2L13.6,4.2L13.6,4.2z"/></svg>';
@@ -321,7 +321,7 @@
  RTE_DefaultConfig.svgCode_pduplicate = '<svg  viewBox="-2 -2 20 20"><g><path fill="#f6f6f6" d="M16 1H3v5H0v9h13v-5h3z"/></g><g id="icon_x5F_bg"><path fill="none" d="M11 8H2v5h9V8zm-2 3H4v-1h5v1z"/><path fill="#424242" d="M4 10h5v1H4zM4 2v4h1V3h9v5h-1v1h2V2z"/><path fill="#424242" d="M1 14h11V7H1v7zm1-6h9v5H2V8zM7 5h5v1H7z"/></g><g id="icon_x5F_fg"><path fill="none" d="M4 10h5v1H4z"/><path fill="#f0eff1" d="M5 3v3h2V5h5v1h1v2h1V3zM2 13h9V8H2v5zm2-3h5v1H4v-1z"/></g></svg>';
  RTE_DefaultConfig.svgCode_paragraphstyle = '<svg viewBox="-2 -2 20 20"><path fill="#424242" d="M12,1v3H9V1H12z M12,4v3h3V4H12z M1,15h1v-1H1V15z M1,9h1V8H1V9z M1,11h1v-1H1V11z M1,13h1v-1H1V13z M1,7h1V6H1V7z M1,5h1V4H1V5z M3,15h1v-1H3V15z M5,15h1v-1H5V15z M7,15h1v-1H7V15z M9,15h1v-1H9V15z M11,15h1v-1h-1V15z"/><path fill="#424242" d="M7.7,3H6.3L3,13h1.5l0.7-2h3.7l0.7,2H11L7.7,3z M5.7,9.5l1.3-4l1.3,4H5.7z"/></svg>';
  RTE_DefaultConfig.svgCode_paragraphop = '<svg viewBox="-2 -2 20 20"><path fill="#f6f6f6" d="M13,1V4H12V16H6V9.973A4.5,4.5,0,0,1,6.5,1Z" /><path fill="#424242" d="M12,2V3H11V15H10V3H8V15H7V8.95A3.588,3.588,0,0,1,6.5,9a3.5,3.5,0,0,1,0-7Z" /></svg >';
- 
+
  RTE_DefaultConfig.svgCode_removetag = '<svg viewBox="0 0 20 20"></svg>';
  RTE_DefaultConfig.svgCode_toggle_paragraph = RTE_DefaultConfig.svgCode_paragraph;
  RTE_DefaultConfig.svgCode_menu_paragraph = RTE_DefaultConfig.svgCode_paragraph;
@@ -332,17 +332,17 @@
  RTE_DefaultConfig.svgCode_controlunlink = RTE_DefaultConfig.svgCode_unlink;
  RTE_DefaultConfig.svgCode_pdelete = RTE_DefaultConfig.svgCode_delete;
  RTE_DefaultConfig.svgCode_pmore = RTE_DefaultConfig.svgCode_more;
- 
+
  RTE_DefaultConfig.controlSelectionClass = "rte-control-selected"
  RTE_DefaultConfig.controlSelectionMargin = 7;
  RTE_DefaultConfig.controlSelectionLineAdd = 3;
- 
- 
+
+
  RTE_DefaultConfig.text_language = "Language";
- 
+
  RTE_DefaultConfig.text_ok = "OK";
  RTE_DefaultConfig.text_cancel = "Cancel";
- 
+
  RTE_DefaultConfig.text_normal = "Normal"
  RTE_DefaultConfig.text_h1 = "Headline 1"
  RTE_DefaultConfig.text_h2 = "Headline 2"
@@ -351,9 +351,9 @@
  RTE_DefaultConfig.text_h5 = "Headline 5"
  RTE_DefaultConfig.text_h6 = "Headline 6"
  RTE_DefaultConfig.text_h7 = "Headline 7"
- 
+
  RTE_DefaultConfig.text_close = "Close";
- 
+
  RTE_DefaultConfig.text_bold = "Bold";
  RTE_DefaultConfig.text_italic = "Italic";
  RTE_DefaultConfig.text_underline = "Underline";
@@ -362,59 +362,59 @@
  RTE_DefaultConfig.text_subscript = "Subcript";
  RTE_DefaultConfig.text_ucase = "Upper Case";
  RTE_DefaultConfig.text_lcase = "Lower Case";
- 
+
  RTE_DefaultConfig.text_removeformat = "Remove Format";
- 
+
  RTE_DefaultConfig.text_insertlink = "Insert Link";
  RTE_DefaultConfig.text_openlink = "Open Link";
  RTE_DefaultConfig.text_editlink = "Edit Link";
  RTE_DefaultConfig.text_unlink = "Remove Link";
- 
+
  RTE_DefaultConfig.text_controlinsertlink = "@insertlink";
  RTE_DefaultConfig.text_controleditlink = "@editlink";
  RTE_DefaultConfig.text_controlopenlink = "@openlink";
  RTE_DefaultConfig.text_controlunlink = "@unlink";
- 
+
  RTE_DefaultConfig.text_lineheight = "Line Height";
- 
+
  RTE_DefaultConfig.text_indent = "Indent";
  RTE_DefaultConfig.text_outdent = "Outdent";
- 
+
  RTE_DefaultConfig.text_insertblockquote = "Block Quote";
- 
+
  RTE_DefaultConfig.text_insertorderedlist = "Ordered List";
  RTE_DefaultConfig.text_insertunorderedlist = "Unordered List";
- 
+
  RTE_DefaultConfig.text_inserthorizontalrule = "Insert Horizontal Rule";
  RTE_DefaultConfig.text_insertdate = "Insert Date";
  RTE_DefaultConfig.text_inserttable = "Insert Table";
  RTE_DefaultConfig.text_insertimage = "Insert Image";
  RTE_DefaultConfig.text_insertvideo = "Insert Video";
- 
+
  RTE_DefaultConfig.text_insertcode = "Insert Code";
- 
+
  RTE_DefaultConfig.text_html2pdf = "Create PDF";
  RTE_DefaultConfig.text_insertemoji = "Insert Emoji";
  RTE_DefaultConfig.text_insertchars = "Special characters";
  RTE_DefaultConfig.text_characters = "Characters";
- 
+
  RTE_DefaultConfig.text_fontname = "Font";
  RTE_DefaultConfig.text_fontsize = "Size";
  RTE_DefaultConfig.text_forecolor = "Text Color";
  RTE_DefaultConfig.text_backcolor = "Back Color";
- 
+
  RTE_DefaultConfig.text_justify = "Justify"
  RTE_DefaultConfig.text_justifyleft = "Justify Left"
  RTE_DefaultConfig.text_justifyright = "Justify Right"
  RTE_DefaultConfig.text_justifycenter = "Justify Center"
  RTE_DefaultConfig.text_justifyfull = "Justify Full"
  RTE_DefaultConfig.text_justifynone = "Justify None"
- 
+
  RTE_DefaultConfig.text_delete = "Delete";
  RTE_DefaultConfig.text_save = "Save file";
- 
+
  RTE_DefaultConfig.text_selectall = "Select All";
- 
+
  RTE_DefaultConfig.text_code = "HTML Code";
  RTE_DefaultConfig.text_preview = "Preview";
  RTE_DefaultConfig.text_print = "Print";
@@ -423,18 +423,18 @@
  RTE_DefaultConfig.text_more = "More...";
  RTE_DefaultConfig.text_newdoc = "New Doc";
  RTE_DefaultConfig.text_help = "Help";
- 
+
  RTE_DefaultConfig.text_fullscreenenter = "Fit to Window";
  RTE_DefaultConfig.text_fullscreenexit = "Exit Full Screen";
  RTE_DefaultConfig.text_fullscreen = "@text_fullscreenenter";
- 
+
  RTE_DefaultConfig.text_imageeditor = "Image Editor";
- 
- 
+
+
  RTE_DefaultConfig.text_imagestyle = "Image Styles";
  RTE_DefaultConfig.text_inlinestyle = "Inline Styles";
  RTE_DefaultConfig.text_paragraphstyle = "Paragraph Styles";
- 
+
  RTE_DefaultConfig.text_linkstyle = "Link Styles";
  RTE_DefaultConfig.text_link = "Link";
  RTE_DefaultConfig.text_style = "Styles";
@@ -443,46 +443,46 @@
  RTE_DefaultConfig.text_byurl = "By Url";
  RTE_DefaultConfig.text_upload = "Upload";
  RTE_DefaultConfig.text_size = "Size";
- 
+
  RTE_DefaultConfig.text_text = "Text";
- 
+
  RTE_DefaultConfig.text_opennewwin = "Open in new tab";
- 
+
  RTE_DefaultConfig.text_insert = "Insert";
  RTE_DefaultConfig.text_update = "Update";
- 
+
  RTE_DefaultConfig.text_find = "Find&Replace";
  RTE_DefaultConfig.text_findwhat = "Find";
  RTE_DefaultConfig.text_replacewith = "Replace";
- 
+
  RTE_DefaultConfig.text_findnext = "Next";
  RTE_DefaultConfig.text_replaceonce = "Replace";
  RTE_DefaultConfig.text_replaceall = "Replace All";
  RTE_DefaultConfig.text_matchcase = "Match Case";
  RTE_DefaultConfig.text_matchword = "Match Word";
- 
+
  RTE_DefaultConfig.text_move_down = "Move Down";
  RTE_DefaultConfig.text_move_up = "Move Up";
- 
+
  RTE_DefaultConfig.text_controlsizeauto = "Auto size"
  RTE_DefaultConfig.text_controlsize100 = "100% width"
  RTE_DefaultConfig.text_controlsize75 = "75% width"
  RTE_DefaultConfig.text_controlsize50 = "50% width"
  RTE_DefaultConfig.text_controlsize25 = "25% width"
- 
+
  RTE_DefaultConfig.text_controlsize = "Set Size"
- 
+
  RTE_DefaultConfig.text_controlalt = "Alt text"
- 
+
  RTE_DefaultConfig.text_controljustify = "Justify";
- 
+
  RTE_DefaultConfig.text_imagecaption = "Image Caption";
- 
+
  RTE_DefaultConfig.text_tablecellmerge = "Merge Cells"
- 
+
  RTE_DefaultConfig.text_tablecellsplitver = "Split Cells Vertical"
  RTE_DefaultConfig.text_tablecellsplithor = "Split Cells Horizontal"
- 
+
  RTE_DefaultConfig.text_tablecellforecolor = "Cell Text Color"
  RTE_DefaultConfig.text_tablecellbackcolor = "Cell Back Color"
  RTE_DefaultConfig.text_tablerowinsertabove = "Insert Row Above"
@@ -494,16 +494,16 @@
  RTE_DefaultConfig.text_tabledelete = "Delete Table"
  RTE_DefaultConfig.text_tableautosize = "Auto Size"
  RTE_DefaultConfig.text_tableheader = "Table Header"
- 
+
  RTE_DefaultConfig.text_plusbtn = "Add a new paragraph"
- 
+
  RTE_DefaultConfig.text_paste = "Paste";
  RTE_DefaultConfig.text_pasteauto = "Paste";
  RTE_DefaultConfig.text_pastetext = "Paste Text";
  RTE_DefaultConfig.text_pasteashtml = "Paste as Html";
  RTE_DefaultConfig.text_pasteword = "Paste Word";
  RTE_DefaultConfig.text_pasteinstruction = "Please use CTRL+V to paste the content into the box below. \r\nThe content will be cleaned automatically.";
- 
+
  RTE_DefaultConfig.text_paragraphop = "Paragraphs";
  RTE_DefaultConfig.text_paragraphs = "Paragraphs";
  RTE_DefaultConfig.text_pmoveup = "Move Up";
@@ -511,60 +511,60 @@
  RTE_DefaultConfig.text_pduplicate = "Duplicate";
  RTE_DefaultConfig.text_pdelete = "Delete";
  RTE_DefaultConfig.text_pmore = "More..";
- 
+
  RTE_DefaultConfig.text_togglemore = "More..";
  RTE_DefaultConfig.text_toggleborder = "Toggle Border";
- 
+
  RTE_DefaultConfig.text_cut = "Cut";
  RTE_DefaultConfig.text_copy = "Copy";
  RTE_DefaultConfig.text_copied = "copied";
- 
+
  RTE_DefaultConfig.text_insertgallery = "Insert Gallery";
  RTE_DefaultConfig.text_insertdocument = "Insert Document";
  RTE_DefaultConfig.text_inserttemplate = "Insert Template";
- 
+
  RTE_DefaultConfig.text_previewtitle = "Preview";
  RTE_DefaultConfig.text_previewnormal = "Normal";
  RTE_DefaultConfig.text_previewmobile = "Mobile";
  RTE_DefaultConfig.text_previewtablet = "Tablet";
- 
+
  RTE_DefaultConfig.text_table = "Table";
  RTE_DefaultConfig.text_tablecell = "Table Cell";
  RTE_DefaultConfig.text_tablerow = "Table Row";
  RTE_DefaultConfig.text_tablecolumn = "Table Column";
- 
+
  RTE_DefaultConfig.text_colorauto = "Automatic";
- 
+
  RTE_DefaultConfig.text_colormore = "More";
  RTE_DefaultConfig.text_colorpicker = "Color Picker";
- 
- RTE_DefaultConfig.text_colorwebpalette = "Web Palette";
- 
+
+ RTE_DefaultConfig.text_colorpngalette = "Web Palette";
+
  RTE_DefaultConfig.text_colornamedcolors = "Named Colors";
- 
+
  RTE_DefaultConfig.text_colorbasic = "Basic";
  RTE_DefaultConfig.text_coloraddition = "Addition";
- 
+
  RTE_DefaultConfig.text_draganddrop = "Drag and drop";
  RTE_DefaultConfig.text_or = "or";
  RTE_DefaultConfig.text_clicktoupload = "Click to upload";
- 
+
  RTE_DefaultConfig.text_defaultimagecaption = "Default Image Caption";
- 
+
  RTE_DefaultConfig.text_searchemojis = "Search";
- 
- 
+
+
  RTE_DefaultConfig.text_insertgallerytitle = "@insertgallery";
  RTE_DefaultConfig.text_inserttemplatetitle = "@inserttemplate";
- 
+
  RTE_DefaultConfig.text_reachmaxlength = "The text to be added has reached the character limit for this field.";
- 
+
  RTE_DefaultConfig.translation = {
- 
+
  }
- 
- 
- 
+
+
+
  //richtexteditor version 1.014
  var RTE_CreateConfig, RichTextEditor;
 (function () {
@@ -1976,8 +1976,8 @@
         "onkeyup",
         "rte-button-type-action",
         "OK",
-        "colorwebpalette",
-        "rte_colorpicker_colorwebpalette",
+        "colorpngalette",
+        "rte_colorpicker_colorpngalette",
         "<tr>",
         "<td class='colorcell'><div class='colordiv' style='background-color:",
         "' rte-tooltip='",

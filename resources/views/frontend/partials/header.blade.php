@@ -5,7 +5,7 @@
                 <div class="header-menu-content">
                     <div class="logo-wrapper">
                         <a class="site-logo site-title" href="/">
-                            <img src="{{ asset('fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.webp', 'dark') }}"
+                            <img src="fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.png"
                                 alt="site-logo">
                         </a>
                         <button class="logo-btn"><i class="las la-bars"></i></button>
@@ -94,7 +94,7 @@
                                     @else --}}
                                         <a href="javascript:void(0)" class="header-account-button-area account-area-btn">
                                             <div class="header-account-button-thumb-area">
-                                                <img src="{{ asset('public/frontend') }}/images/user/account.png"
+                                                <img src="frontend/images/user/account.png"
                                                     alt="account">
                                             </div>
                                             <span class="title">{{ __('Login/Register') }}</span>

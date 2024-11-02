@@ -24906,7 +24906,7 @@
       }
     })(typeof window !== 'undefined' ? window : undefined, function (window, document) {
       // Find global reference - uses 'this' by default when available,
-      // falls back to 'window' otherwise (for bundlers like Webpack)
+      // falls back to 'window' otherwise (for bundlers like pngack)
       var globalRef = typeof this !== 'undefined' ? this : window; // The main wrapping element
 
       var SVG = globalRef.SVG = function (element) {

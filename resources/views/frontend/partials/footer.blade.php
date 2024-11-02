@@ -23,7 +23,7 @@
                         <div class="footer-logo">
                             {{-- <a href="{{ url('/') }}" class="site-logo site-title" href="{{ url('/') }}"><img
                                     src="{{ get_logo($basic_settings, 'dark') }}" alt="site-logo"></a> --}}
-                            <a href="{{ url('/') }}" class="site-logo site-title" href="{{ url('/') }}"><img src="public/fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.webp" alt="logo"></a>
+                            <a href="{{ url('/') }}" class="site-logo site-title" href="{{ url('/') }}"><img src="fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.png" alt="logo"></a>
                         </div>
                         <div class="footer-content">
                             <p>{{ @$footer->value->language->$lang->footer_description }}</p>

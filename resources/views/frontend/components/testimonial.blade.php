@@ -1,7 +1,7 @@
 <section class="testimonial-section ptb-120 bg_img" data-background="public/frontend/images/element/bg1.jpg"
     style="background-image: url('public/frontend/images/element/bg1.jpg');">
     <div class="element-area">
-        <img src="public/frontend/images/element/shadow-2.5ab01ec0.svg" alt="element">
+        <img src="frontend/images/element/shadow-2.5ab01ec0.svg" alt="element">
     </div>
     <div class="container">
         <div class="row justify-content-center">
@@ -20,7 +20,7 @@
                         <div class="testimonial-item">
                             <div class="testimonial-user-area">
                                 <div class="user-area">
-                                    <img src="public/fileholder/img/eb585a9a-dff6-4b66-bf3e-720f0ada7bb4.webp"
+                                    <img src="frontend/images/site-section/eb585a9a-dff6-4b66-bf3e-720f0ada7bb4.webp"
                                         alt="user">
                                 </div>
                                 <div class="title-area">
@@ -47,7 +47,7 @@
                         <div class="testimonial-item">
                             <div class="testimonial-user-area">
                                 <div class="user-area">
-                                    <img src="public/fileholder/img/88a04ac6-11c1-4ce5-9eed-47c6a02dc33b.webp"
+                                    <img src="frontend/images/site-section/88a04ac6-11c1-4ce5-9eed-47c6a02dc33b.webp"
                                         alt="user">
                                 </div>
                                 <div class="title-area">
@@ -74,7 +74,7 @@
                         <div class="testimonial-item">
                             <div class="testimonial-user-area">
                                 <div class="user-area">
-                                    <img src="public/fileholder/img/c905f85e-90a4-4226-96e0-8f8b195f2bfb.webp"
+                                    <img src="frontend/images/site-section/c905f85e-90a4-4226-96e0-8f8b195f2bfb.webp"
                                         alt="user">
                                 </div>
                                 <div class="title-area">
@@ -102,7 +102,7 @@
                         <div class="testimonial-item">
                             <div class="testimonial-user-area">
                                 <div class="user-area">
-                                    <img src="public/fileholder/img/cf35445e-5cd1-4caa-a5b8-a2e13f7255cc.webp"
+                                    <img src="frontend/images/site-section/cf35445e-5cd1-4caa-a5b8-a2e13f7255cc.webp"
                                         alt="user">
                                 </div>
                                 <div class="title-area">

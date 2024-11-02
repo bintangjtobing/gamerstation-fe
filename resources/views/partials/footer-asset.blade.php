@@ -1,24 +1,24 @@
 <!-- jquery -->
-<script src="{{ asset('public/frontend') }}/js/jquery-3.5.1.js"></script>
+<script src="frontend/js/jquery-3.5.1.js"></script>
 <!-- bootstrap js -->
-<script src="{{ asset('public/frontend') }}/js/bootstrap.bundle.js"></script>
+<script src="frontend/js/bootstrap.bundle.js"></script>
 <!-- swipper js -->
-<script src="{{ asset('public/frontend') }}/js/swiper.js"></script>
+<script src="frontend/js/swiper.js"></script>
 <!-- odometer js -->
-<script src="{{ asset('public/frontend') }}/js/odometer.js"></script>
+<script src="frontend/js/odometer.js"></script>
 <!-- viewport js -->
-<script src="{{ asset('public/frontend') }}/js/viewport.jquery.js"></script>
+<script src="frontend/js/viewport.jquery.js"></script>
 <!-- smooth scroll js -->
-<script src="{{ asset('public/frontend') }}/js/smoothscroll.js"></script>
+<script src="frontend/js/smoothscroll.js"></script>
 <!-- nice-select -->
-<script src="{{ asset('public/frontend') }}/js/jquery.nice-select.js"></script>
+<script src="frontend/js/jquery.nice-select.js"></script>
 <!-- lightcase js -->
-<script src="{{ asset('public/frontend') }}/js/lightcase.js"></script>
+<script src="frontend/js/lightcase.js"></script>
 
-{{-- common all project  --}}
-<script src="{{ asset('public/backend/js/select2.js') }}"></script>
-<!--  Popup -->
-<script src="{{ asset('public/backend/library/popup/jquery.magnific-popup.js') }}"></script>
+<!-- common all project -->
+<script src="backend/js/select2.js"></script>
+<!-- Popup -->
+<script src="backend/library/popup/jquery.magnific-popup.js"></script>
 <!-- file holder js -->
 <script src="https://appdevs.cloud/cdn/fileholder/v1.0/js/fileholder-script.js" type="module"></script>
 <script>

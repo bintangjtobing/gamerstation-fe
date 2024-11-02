@@ -21,7 +21,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 mb-30">
                 <div class="section-image">
-                    <img src="public/fileholder/img/718d2ed5-d00e-4b54-a0f1-dfc7d1615106.webp" alt="image">
+                    <img src="frontend/images/site-section/718d2ed5-d00e-4b54-a0f1-dfc7d1615106.webp" alt="image">
                 </div>
             </div>
         </div>

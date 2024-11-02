@@ -1,7 +1,7 @@
 <section class="testimonial-section ptb-120 bg_img"
-    data-background="{{ asset('public/frontend') }}/images/element/bg1.jpg">
+    data-background="frontend/images/element/bg1.jpg">
     <div class="element-area">
-        <img src="{{ asset('public/frontend') }}/images/element/shadow-2.5ab01ec0.svg" alt="element">
+        <img src="frontend/images/element/shadow-2.5ab01ec0.svg" alt="element">
     </div>
     <div class="container">
         <div class="row justify-content-center">
@@ -20,7 +20,7 @@
                         <div class="testimonial-item">
                             <div class="testimonial-user-area">
                                 <div class="user-area">
-                                    <img src="{{ asset('public/frontend') }}/images/user/2.jpg" alt="user">
+                                    <img src="frontend/images/user/2.jpg" alt="user">
                                 </div>
                                 <div class="title-area">
                                     <h5>Fardin Mehbub</h5>
@@ -46,7 +46,7 @@
                         <div class="testimonial-item">
                             <div class="testimonial-user-area">
                                 <div class="user-area">
-                                    <img src="{{ asset('public/frontend') }}/images/user/2.jpg" alt="user">
+                                    <img src="public/frontend/images/user/2.jpg" alt="user">
                                 </div>
                                 <div class="title-area">
                                     <h5>Fardin Mehbub</h5>
@@ -72,7 +72,7 @@
                         <div class="testimonial-item">
                             <div class="testimonial-user-area">
                                 <div class="user-area">
-                                    <img src="{{ asset('public/frontend') }}/images/user/2.jpg" alt="user">
+                                    <img src="frontend/images/user/2.jpg" alt="user">
                                 </div>
                                 <div class="title-area">
                                     <h5>Fardin Mehbub</h5>

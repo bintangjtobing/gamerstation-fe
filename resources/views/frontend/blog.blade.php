@@ -18,7 +18,7 @@ $blogs = App\Models\Blog::get();
                     <div class="col-xl-6 col-lg-12 col-md-6 mb-30">
                         <div class="blog-item">
                             <div class="blog-item-thumb">
-                                <img src="public/fileholder/img/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
+                                <img src="backend/files/blog/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
                             </div>
                             <div class="blog-item-content">
                                 <div class="blog-item-top-content">
@@ -35,7 +35,7 @@ $blogs = App\Models\Blog::get();
                                 <div class="blog-item-bottom-content">
                                     <div class="thumb-area">
                                         <div class="thumb">
-                                            <img src="public/fileholder/img/admin-profile.webp" alt="blog">
+                                            <img src="backend/files/blog/admin-profile.webp" alt="blog">
                                         </div>
                                         <div class="thumb-title">
                                             <h5 class="thumb-title-text">Admin Name</h5>
@@ -85,7 +85,7 @@ $blogs = App\Models\Blog::get();
                             <div class="single-popular-item d-flex flex-wrap align-items-center">
                                 <div class="popular-item-thumb">
                                     <a href="blog/gaming-gift-cards-the-perfect-present-for-gamers">
-                                        <img src="public/fileholder/img/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
+                                        <img src="backend/files/blog/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
                                     </a>
                                 </div>
                                 <div class="popular-item-content">

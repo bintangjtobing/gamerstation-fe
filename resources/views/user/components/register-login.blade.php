@@ -7,7 +7,7 @@
             <div class="account-logo text-start">
                 <a href="{{ route('index') }}" class="site-logo">
 
-                    <img src="public/fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.webp" alt="logo">
+                    <img src="fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.png" alt="logo">
                 </a>
             </div>
             <h5 class="title">{{__('Login Information')}}</h5>
@@ -51,7 +51,7 @@
         <div class="account-close"></div>
         <div class="account-form-area">
             <div class="account-logo text-start">
-                <a class="site-logo" href="{{ route('index') }}"><img src="public/fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.webp" alt="logo"></a>
+                <a class="site-logo" href="{{ route('index') }}"><img src="fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.png" alt="logo"></a>
             </div>
             <h5 class="title">{{__('Register Information')}}</h5>
             <p>{{__('Please input your details and register to your account to get access to your dashboard.')}}</p>

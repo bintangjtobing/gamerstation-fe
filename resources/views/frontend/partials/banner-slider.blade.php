@@ -3,7 +3,7 @@
 
         <div class="swiper-slide">
             <div class="banner-section bg_img"
-                data-background="public/fileholder/img/3d8806a4-6d51-4680-b0da-0cdf474042e6.webp">
+                data-background="public/fileholder/img/3d8806a4-6d51-4680-b0da-0cdf474042e6.png">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8 col-md-9">
@@ -29,7 +29,7 @@
 
         <div class="swiper-slide">
             <div class="banner-section bg_img"
-                data-background="public/fileholder/img/5450feff-72b6-47e8-b206-eda6690f7c1d.webp">
+                data-background="public/fileholder/img/5450feff-72b6-47e8-b206-eda6690f7c1d.png">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8 col-md-9">
@@ -53,7 +53,7 @@
 
         <div class="swiper-slide">
             <div class="banner-section bg_img"
-                data-background="public/fileholder/img/c98023d9-9576-4bdb-b251-a477d590c26b.webp">
+                data-background="public/fileholder/img/c98023d9-9576-4bdb-b251-a477d590c26b.png">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8 col-md-9">
@@ -79,7 +79,7 @@
 
         <div class="swiper-slide">
             <div class="banner-section bg_img"
-                data-background="public/fileholder/img/12f729ae-c5f2-441e-b1a4-a5433ad30944.webp">
+                data-background="public/fileholder/img/12f729ae-c5f2-441e-b1a4-a5433ad30944.png">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8 col-md-9">

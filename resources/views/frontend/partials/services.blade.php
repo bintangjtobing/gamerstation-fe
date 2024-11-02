@@ -1,6 +1,6 @@
-<section class="service-section ptb-120 bg_img" data-background="{{ asset('public/frontend') }}/images/element/bg1.jpg">
+<section class="service-section ptb-120 bg_img" data-background="frontend/images/element/bg1.jpg">
     <div class="element-area">
-        <img src="{{ asset('public/frontend') }}/images/element/shadow-2.5ab01ec0.svg" alt="element">
+        <img src="frontend/images/element/shadow-2.5ab01ec0.svg" alt="elementt">
     </div>
     <div class="container">
         <div class="row justify-content-center">

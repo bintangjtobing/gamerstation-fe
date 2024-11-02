@@ -66,7 +66,7 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 mb-30">
                 <div class="about-thumb text-md-center">
-                    <img src="public/fileholder/img/94d59292-e49d-4e62-ba4f-5f7bac506e9b.webp" alt="about">
+                    <img src="frontend/images/site-section/94d59292-e49d-4e62-ba4f-5f7bac506e9b.webp" alt="about">
                 </div>
             </div>
         </div>

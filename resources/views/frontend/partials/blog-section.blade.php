@@ -13,7 +13,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-item-thumb">
-                        <img src="public/fileholder/img/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
+                        <img src="backend/files/blog/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
                     </div>
                     <div class="blog-item-content">
                         <div class="blog-item-top-content">
@@ -35,7 +35,7 @@
                         <div class="blog-item-bottom-content">
                             <div class="thumb-area">
                                 <div class="thumb">
-                                    <img src="public/fileholder/img/admin-profile.webp" alt="blog">
+                                    <img src="fileholder/img/admin-profile.png" alt="blog">
                                 </div>
                                 <div class="thumb-title">
                                     <h5 class="thumb-title-text">Admin Name</h5>
@@ -53,7 +53,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-item-thumb">
-                        <img src="public/fileholder/img/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
+                        <img src="backend/files/blog/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
                     </div>
                     <div class="blog-item-content">
                         <div class="blog-item-top-content">
@@ -75,7 +75,7 @@
                         <div class="blog-item-bottom-content">
                             <div class="thumb-area">
                                 <div class="thumb">
-                                    <img src="public/fileholder/img/admin-profile.webp" alt="blog">
+                                    <img src="fileholder/img/admin-profile.png" alt="blog">
                                 </div>
                                 <div class="thumb-title">
                                     <h5 class="thumb-title-text">Admin Name</h5>
@@ -93,7 +93,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                 <div class="blog-item">
                     <div class="blog-item-thumb">
-                        <img src="public/fileholder/img/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
+                        <img src="backend/files/blog/8a13121a-0fbc-4fee-aeb7-74b0972570e8.webp" alt="blog">
                     </div>
                     <div class="blog-item-content">
                         <div class="blog-item-top-content">
@@ -115,7 +115,7 @@
                         <div class="blog-item-bottom-content">
                             <div class="thumb-area">
                                 <div class="thumb">
-                                    <img src="public/fileholder/img/admin-profile.webp" alt="blog">
+                                    <img src="fileholder/img/admin-profile.png" alt="blog">
                                 </div>
                                 <div class="thumb-title">
                                     <h5 class="thumb-title-text">Admin Name</h5>
