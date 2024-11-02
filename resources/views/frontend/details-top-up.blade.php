@@ -126,8 +126,15 @@
                                             <div class="faq-content" id="va-content" style="display: none;">
                                                 <div class="payment-card">
                                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/800px-Bank_Central_Asia.svg.png"
-                                                        alt="BCA Logo - GamerStation"
-                                                        style="width: 100px; margin-bottom: 10px;">
+                                                        alt="BCA Logo" style="width: 100px; margin-bottom: 10px;">
+                                                    <img src="https://finnsbali.com/wp-content/uploads/2018/03/logo-cimb-niaga3-1.png"
+                                                        alt="CIMB Logo" style="width: 100px; margin-bottom: 10px;">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/2560px-BNI_logo.svg.png"
+                                                        alt="BNI Logo" style="width: 100px; margin-bottom: 10px;">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_BRI.png/1200px-Logo_BRI.png"
+                                                        alt="BRI Logo" style="width: 100px; margin-bottom: 10px;">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bank_Mandiri_logo_2016.svg/1024px-Bank_Mandiri_logo_2016.svg.png"
+                                                        alt="Mandiri Logo" style="width: 100px; margin-bottom: 10px;">
                                                     <p><strong>Total Bayar:</strong><br><span
                                                             style="font-size: 28px; color: #FFD700;">Rp. 138,537</span>
                                                     </p>
@@ -150,14 +157,17 @@
                                         <!-- E-Wallet -->
                                         <div class="faq-item">
                                             <h3 class="faq-title" onclick="toggleContent('ewallet-content')">
-                                                <span class="title">E-Wallet (OVO, ShopeePay)</span>
+                                                <span class="title">E-Wallet (OVO, ShopeePay, Dana)</span>
                                                 <span class="right-icon"></span>
                                             </h3>
                                             <div class="faq-content" id="ewallet-content" style="display: none;">
                                                 <div class="payment-card">
                                                     <img src="https://vectorez.biz.id/wp-content/uploads/2024/05/Logo-OVO-2@0.5x.png"
-                                                        alt="E-Wallet - GamerStation"
-                                                        style="width: 100px; margin-bottom: 10px;">
+                                                        alt="OVO Logo" style="width: 100px; margin-bottom: 10px;">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg"
+                                                        alt="Shopee Logo" style="width: 100px; margin-bottom: 10px;">
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Dana_logo.png"
+                                                        alt="Dana Logo" style="width: 100px; margin-bottom: 10px;">
                                                     <p><strong>Total Bayar:</strong><br><span
                                                             style="font-size: 28px; color: #FFD700;">Rp. 138,537</span>
                                                     </p>
