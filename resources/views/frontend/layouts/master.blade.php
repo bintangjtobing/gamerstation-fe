@@ -98,7 +98,7 @@ $s_agent = $loaded_agent;
     @include('frontend.partials.extensions.tawk-to')
 
     @stack('script')
-    <script>
+    {{-- <script>
         var status = "{{ @$cookie->status }}";
         //cookies results
         var approval_status = "{{ $approval_status }}";
@@ -193,7 +193,7 @@ $s_agent = $loaded_agent;
                 });
             });
         })(jQuery)
-    </script>
+    </script> --}}
 
 </body>
 

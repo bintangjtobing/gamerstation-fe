@@ -2,14 +2,14 @@
     $menues = DB::table('setup_pages')
         ->where('status', 1)
         ->get();
-    
+
     $current_route = Route::currentRouteName();
 @endphp
 
 <div class="main-side-menu">
     <div class="main-side-menu-logo-area">
         <div class="thumb-logo">
-            <img src="{{ get_logo($basic_settings, 'dark') }}" alt="logo">
+            <img src="public/fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.webp" alt="logo">
         </div>
         <span class="main-side-menu-cross"><i class="las la-times"></i></span>
     </div>

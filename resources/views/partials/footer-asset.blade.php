@@ -33,8 +33,8 @@
         previewFunctions.previewReInit(inputFields)
     };
 
-    fileHolderSettings.urls.uploadUrl = "{{ setRoute('fileholder.upload') }}";
-    fileHolderSettings.urls.removeUrl = "{{ setRoute('fileholder.remove') }}";
+    fileHolderSettings.urls.uploadUrl = "";
+    fileHolderSettings.urls.removeUrl = "";
 </script>
 <script>
     function fileHolderPreviewReInit(selector) {
