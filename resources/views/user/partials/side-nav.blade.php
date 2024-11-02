@@ -1,9 +1,9 @@
 @php
-    $current_route = Route::currentRouteName();
+$current_route = Route::currentRouteName();
 
-    $current_url = URL::current();
+$current_url = URL::current();
 
-    $transaction_childs = [route('user.transactions.index', 'add-money'), route('user.transactions.index', 'top-up')];
+$transaction_childs = [route('user.transactions.index', 'add-money'), route('user.transactions.index', 'top-up')];
 @endphp
 <div class="sidebar">
     <div class="sidebar-inner">
@@ -38,12 +38,14 @@
                             <span class="menu-title">{{ __('Add Money') }}</span>
                         </a>
                     </li>
-                    <li class="sidebar-menu-item sidebar-dropdown @if (in_array($current_url, $transaction_childs)) active @endif">
+                    <li
+                        class="sidebar-menu-item sidebar-dropdown @if (in_array($current_url, $transaction_childs)) active @endif">
                         <a href="javascript:void(0)">
                             <i class="menu-icon las la-arrows-alt-h"></i>
                             <span class="menu-title">{{ __('Transaction') }}</span>
                         </a>
-                        <ul class="sidebar-submenu" @if (in_array($current_url, $transaction_childs)) style="display: block" @endif>
+                        <ul class="sidebar-submenu" @if (in_array($current_url, $transaction_childs))
+                            style="display: block" @endif>
                             <li class="sidebar-menu-item">
                                 <a href="{{ setRoute('user.transactions.index', 'add-money') }}"
                                     class="nav-link @if ($current_url == route('user.transactions.index', 'add-money')) active @endif">
@@ -60,7 +62,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="sidebar-menu-item @if ($current_route == 'user.security.google.2fa') ? 'active' : '' @endif">
+                    <li
+                        class="sidebar-menu-item @if ($current_route == 'user.security.google.2fa') ? 'active' : '' @endif">
                         <a href="{{ route('user.security.google.2fa') }}">
                             <i class="menu-icon las la-qrcode"></i>
                             <span class="menu-title">{{ __('2fa Security') }}</span>
@@ -76,9 +79,8 @@
             </div>
         </div>
         <div class="side-doc-wrapper">
-            <div class="sidebar-doc-box bg_img"
-                data-background="{{ asset('public/frontend') }}/images/product-item/1.jpg"
-                style="background-image: url(&quot;{{ asset('public/frontend') }}/images/product-item/1.jpg&quot;);">
+            <div class="sidebar-doc-box bg_img" data-background="{{ asset('frontend') }}/images/product-item/1.jpg"
+                style="background-image: url(&quot;{{ asset('frontend') }}/images/product-item/1.jpg&quot;);">
                 <div class="sidebar-doc-icon">
                     <i class="las la-headset"></i>
                 </div>

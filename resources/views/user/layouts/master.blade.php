@@ -45,8 +45,8 @@
     Start Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-    <div class="page-wrapper bg_img" data-background="{{ asset('public/frontend') }}/images/element/bg1.jpg"
-        style="background-image: url(&quot;{{ asset('public/frontend') }}/images/element/bg1.jpg&quot;);">
+    <div class="page-wrapper bg_img" data-background="{{ asset('frontend') }}/images/element/bg1.jpg"
+        style="background-image: url(&quot;{{ asset('frontend') }}/images/element/bg1.jpg&quot;);">
 
         @include('user.partials.side-nav')
 
@@ -68,7 +68,7 @@
     @include('partials.footer-asset')
     @include('admin.partials.notify')
     @include('user.partials.auth-control')
-    <script src="{{ asset('public/frontend/js/apexcharts.js') }}"></script>
+    <script src="{{ asset('frontend/js/apexcharts.js') }}"></script>
     <script>
         function openDeleteModal(URL, target, message, actionBtnText = "Remove", method = "DELETE") {
             if (URL == "" || target == "") {

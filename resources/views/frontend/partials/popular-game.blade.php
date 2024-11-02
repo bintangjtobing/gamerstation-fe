@@ -14,7 +14,133 @@
                     <div class="game-item">
                         <a href="product-detail.html" class="game-item-link">
                             <div class="thumb-area">
-                                <img src="{{ asset('public/frontend') }}/images/product/me-cover-384x488.jpg"
+                                <img src="{{ asset('frontend') }}/images/product/me-cover-384x488.jpg" alt="game">
+                            </div>
+                            <div class="content-area">
+                                <h3 class="title">SPACE WARS</h3>
+                                <ul class="item-tag-list">
+                                    <li class="tag">
+                                        <i class="las la-tv" aria-hidden="true"></i>
+                                        <ul>
+                                            <li>
+                                                <a href="#0" title="Steam">Steam,</a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" title="Xbox One">Xbox One</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="tag">
+                                        <i class="las la-tags" aria-hidden="true"></i>
+                                        <ul>
+                                            <li>
+                                                <a href="#0" title="Adventure">Adventure,</a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" title="FPS">FPS</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="game-item-price-area">
+                                    <button class="btn--base"><i class="las la-cart-plus"></i></button>
+                                    <div class="price-content">
+                                        <h3 class="price-title"><span>$63</span> $36</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                    <div class="game-item">
+                        <a href="product-detail.html" class="game-item-link">
+                            <div class="thumb-area">
+                                <img src="{{ asset('frontend') }}/images/product/cod-cover-384x488.jpg" alt="game">
+                            </div>
+                            <div class="content-area">
+                                <h3 class="title">SPACE WARS</h3>
+                                <ul class="item-tag-list">
+                                    <li class="tag">
+                                        <i class="las la-tv" aria-hidden="true"></i>
+                                        <ul>
+                                            <li>
+                                                <a href="#0" title="Steam">Steam,</a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" title="Xbox One">Xbox One</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="tag">
+                                        <i class="las la-tags" aria-hidden="true"></i>
+                                        <ul>
+                                            <li>
+                                                <a href="#0" title="Adventure">Adventure,</a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" title="FPS">FPS</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="game-item-price-area">
+                                    <button class="btn--base"><i class="las la-cart-plus"></i></button>
+                                    <div class="price-content">
+                                        <h3 class="price-title"><span>$63</span> $36</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                    <div class="game-item">
+                        <a href="product-detail.html" class="game-item-link">
+                            <div class="thumb-area">
+                                <img src="{{ asset('frontend') }}/images/product/nfs-cover-384x488.jpg" alt="game">
+                            </div>
+                            <div class="content-area">
+                                <h3 class="title">SPACE WARS</h3>
+                                <ul class="item-tag-list">
+                                    <li class="tag">
+                                        <i class="las la-tv" aria-hidden="true"></i>
+                                        <ul>
+                                            <li>
+                                                <a href="#0" title="Steam">Steam,</a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" title="Xbox One">Xbox One</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="tag">
+                                        <i class="las la-tags" aria-hidden="true"></i>
+                                        <ul>
+                                            <li>
+                                                <a href="#0" title="Adventure">Adventure,</a>
+                                            </li>
+                                            <li>
+                                                <a href="#0" title="FPS">FPS</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="game-item-price-area">
+                                    <button class="btn--base"><i class="las la-cart-plus"></i></button>
+                                    <div class="price-content">
+                                        <h3 class="price-title"><span>$63</span> $36</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
+                    <div class="game-item">
+                        <a href="product-detail.html" class="game-item-link">
+                            <div class="thumb-area">
+                                <img src="{{ asset('frontend') }}/images/product/Planes-of-Gloria-384x488.jpg"
                                     alt="game">
                             </div>
                             <div class="content-area">
@@ -57,8 +183,7 @@
                     <div class="game-item">
                         <a href="product-detail.html" class="game-item-link">
                             <div class="thumb-area">
-                                <img src="{{ asset('public/frontend') }}/images/product/cod-cover-384x488.jpg"
-                                    alt="game">
+                                <img src="{{ asset('frontend') }}/images/product/the-witcher-1-384x488.jpg" alt="game">
                             </div>
                             <div class="content-area">
                                 <h3 class="title">SPACE WARS</h3>
@@ -100,137 +225,7 @@
                     <div class="game-item">
                         <a href="product-detail.html" class="game-item-link">
                             <div class="thumb-area">
-                                <img src="{{ asset('public/frontend') }}/images/product/nfs-cover-384x488.jpg"
-                                    alt="game">
-                            </div>
-                            <div class="content-area">
-                                <h3 class="title">SPACE WARS</h3>
-                                <ul class="item-tag-list">
-                                    <li class="tag">
-                                        <i class="las la-tv" aria-hidden="true"></i>
-                                        <ul>
-                                            <li>
-                                                <a href="#0" title="Steam">Steam,</a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" title="Xbox One">Xbox One</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="tag">
-                                        <i class="las la-tags" aria-hidden="true"></i>
-                                        <ul>
-                                            <li>
-                                                <a href="#0" title="Adventure">Adventure,</a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" title="FPS">FPS</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <div class="game-item-price-area">
-                                    <button class="btn--base"><i class="las la-cart-plus"></i></button>
-                                    <div class="price-content">
-                                        <h3 class="price-title"><span>$63</span> $36</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                    <div class="game-item">
-                        <a href="product-detail.html" class="game-item-link">
-                            <div class="thumb-area">
-                                <img src="{{ asset('public/frontend') }}/images/product/Planes-of-Gloria-384x488.jpg"
-                                    alt="game">
-                            </div>
-                            <div class="content-area">
-                                <h3 class="title">SPACE WARS</h3>
-                                <ul class="item-tag-list">
-                                    <li class="tag">
-                                        <i class="las la-tv" aria-hidden="true"></i>
-                                        <ul>
-                                            <li>
-                                                <a href="#0" title="Steam">Steam,</a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" title="Xbox One">Xbox One</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="tag">
-                                        <i class="las la-tags" aria-hidden="true"></i>
-                                        <ul>
-                                            <li>
-                                                <a href="#0" title="Adventure">Adventure,</a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" title="FPS">FPS</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <div class="game-item-price-area">
-                                    <button class="btn--base"><i class="las la-cart-plus"></i></button>
-                                    <div class="price-content">
-                                        <h3 class="price-title"><span>$63</span> $36</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                    <div class="game-item">
-                        <a href="product-detail.html" class="game-item-link">
-                            <div class="thumb-area">
-                                <img src="{{ asset('public/frontend') }}/images/product/the-witcher-1-384x488.jpg"
-                                    alt="game">
-                            </div>
-                            <div class="content-area">
-                                <h3 class="title">SPACE WARS</h3>
-                                <ul class="item-tag-list">
-                                    <li class="tag">
-                                        <i class="las la-tv" aria-hidden="true"></i>
-                                        <ul>
-                                            <li>
-                                                <a href="#0" title="Steam">Steam,</a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" title="Xbox One">Xbox One</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="tag">
-                                        <i class="las la-tags" aria-hidden="true"></i>
-                                        <ul>
-                                            <li>
-                                                <a href="#0" title="Adventure">Adventure,</a>
-                                            </li>
-                                            <li>
-                                                <a href="#0" title="FPS">FPS</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <div class="game-item-price-area">
-                                    <button class="btn--base"><i class="las la-cart-plus"></i></button>
-                                    <div class="price-content">
-                                        <h3 class="price-title"><span>$63</span> $36</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                    <div class="game-item">
-                        <a href="product-detail.html" class="game-item-link">
-                            <div class="thumb-area">
-                                <img src="{{ asset('public/frontend') }}/images/product/gta-poster-384x488.jpg"
-                                    alt="game">
+                                <img src="{{ asset('frontend') }}/images/product/gta-poster-384x488.jpg" alt="game">
                             </div>
                             <div class="content-area">
                                 <h3 class="title">SPACE WARS</h3>

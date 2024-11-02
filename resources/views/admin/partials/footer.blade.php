@@ -1,6 +1,6 @@
 <div class="copyright-wrapper">
     <div class="copyright-area">
-        <p>Developed by <a href="https://appdevs.net">Appdevs.</a></p>
-        <p>{{ $basic_settings->site_name }} <span>{{ $basic_settings->web_version }}</span></p>
+        <p>Developed by <a href="#">Bintang Tobing</a></p>
+        <p>Gamerstation <span>v1.0.0</span></p>
     </div>
 </div>

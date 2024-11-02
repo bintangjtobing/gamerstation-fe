@@ -1,7 +1,8 @@
 <div class="preloader">
     <div class="loader-inner">
         <div class="loader-circle">
-            <img src="fileholder/img/1c72d20e-32ce-48b8-9484-b8ed4b9ab374.png" alt="Preloader">
+            <img src="{{ asset('backend/images/web-settings/image-assets/2d429533-bc22-4050-b372-15ed6c046929.webp') }}"
+                alt="Preloader">
         </div>
         <div class="loader-line-mask">
             <div class="loader-line"></div>

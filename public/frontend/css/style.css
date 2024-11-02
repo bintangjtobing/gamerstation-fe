@@ -1,103 +1,5 @@
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Typography
-    [ ## Heading ]
-    [ ## Others Typography ]
-# Elements
-    [ ## Font Size ]
-    [ ## Font Weight ]
-    [ ## Margin Element ]
-    [ ## Padding Element ]
-    [ ## Color Element ]
-    [ ## Background Element ]
-    [ ## Extra Background ]
-    [ ## Social Element ]
-    [ ## Overlay Element ]
-    [ ## Lists ]
-    [ ## Post, Page, Comments Table ]
-    [ ## Others Element ]
-    [ ## Grid Element ]
-# Forms
-	[ ## Buttons ]
-	[ ## Fields ]
-# Header Content
-	[ ## Preloader ]
-	[ ## Header ]
-    [ ## Sticky header ]
-# layout
-    [ ## Hero Block ]
-    [ ## Features ]
-    [ ## Team ]
-    [ ## Testimonial ]
-    [ ## Sections ]
-        [ ### Features Block ]
-        [ ### Network Location ]
-        [ ### Discount Block ]
-        [ ### Vission Mission Block ]
-        [ ### Work Brand ]
-        [ ### Announcement ]
-        [ ### Pricing ]
-        [ ### Faqs ]
-        [ ### Support Ticket ]
-        [ ### Call To Action ]
-        [ ### Founder Message Block ]
-        [ ### Fan Fact Block ]
-    [ ## Blog ]
-# site content
-	[ ## About Page ]
-	[ ## Contact Page ]
-	[ ## 404 Page ]
-	[ ## Registration Page ]
-	[ ## Posts and pages ]
-	    [ ### Page Title ]
-	    [ ### Breadcrumb ]
-	    [ ### Page info Content ]
-	[ ## Comments ]
-	[ ## Widgets ]
-	[ ## Widgets Content ]
-# Footer
-/*--------------------------------------------------------------
-# abstracts
---------------------------------------------------------------*/
-/*-------------------------------------------------
-    [ ### font-variable start ]
-*/
-/*-------------------------------------------------
-    [ ### font-variable end ]
-*/
-/*-------------------------------------------------
-    [ ### font_family-variable start ]
-*/
-/*-------------------------------------------------
-    [ ### font_family-variable end ]
-*/
-/*-------------------------------------------------
-    [ ### font_size-variable start ]
-*/
-/*-------------------------------------------------
-    [ ### font_size-variable end ]
-*/
-/*-------------------------------------------------
-    [ ### line_height-variable start ]
-*/
-/*-------------------------------------------------
-    [ ### line_height-variable start ]
-*/
-/*-------------------------------------------------
-    [ ### initial-color-variable start ]
-*/
-/*-------------------------------------------------
-    [ ### initial-color-variable end ]
-*/
-/*--------------------------------------------------------------
-# base
---------------------------------------------------------------*/
-/*-------------------------------------------------
-    [ ## reset ]
-*/
 :root {
-    --base_color: #ff4800;
+    --base_color: #126dff;
 }
 
 
@@ -1244,7 +1146,7 @@ h6 {
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -5814,7 +5716,6 @@ option {
 }
 
 .footer-widget .footer-list li a {
-    text-transform: capitalize;
     position: relative;
     font-size: 16px;
     font-weight: 600;
@@ -10320,7 +10221,7 @@ option {
 
 .header-search .header-search-result li:hover {
     background: rgba(255, 255, 255, 0.1019607843);
-    color: #ff4800;
+    color: #126dff;
 }
 
 .header-search .header-search-result li a {
@@ -10509,3 +10410,47 @@ input:-webkit-autofill:active {
     border-radius: 8px;
     margin: 0 auto;
 }
+
+                    /* Style for each payment card */
+                    .payment-card {
+                        padding: 3px;
+                        border-radius: 8px;
+                        text-align: left;
+                        color: #fff;
+                        margin-top: 10px;
+                    }
+                    .payment-card img {
+                        margin-bottom: 10px;
+                        margin-right: 8px;
+                        background-color: #fff;
+                        padding: 15px;
+                        border-radius: .25rem;
+                    }
+                    .payment-option-label {
+                        color: #126DFF;
+                        display: block;
+                        margin-top: 10px;
+                    }
+                    .faq-item {
+                        background-color: #1c1f26;
+                        padding: 15px;
+                        border-radius: 8px;
+                        margin-bottom: 10px;
+                        cursor: pointer;
+                    }
+                    .faq-title {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: left;
+                        color: #fff;
+                        font-weight: bold;
+                    }
+                    .right-icon {
+                        font-size: 20px;
+                        color: #5a5a5a;
+                        cursor: pointer;
+                    }
+                    .faq-content {
+                        padding-top: 10px;
+                        display: none;
+                    }

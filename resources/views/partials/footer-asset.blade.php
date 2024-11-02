@@ -1,25 +1,13 @@
-<!-- jquery -->
-<script src="frontend/js/jquery-3.5.1.js"></script>
-<!-- bootstrap js -->
-<script src="frontend/js/bootstrap.bundle.js"></script>
-<!-- swipper js -->
-<script src="frontend/js/swiper.js"></script>
-<!-- odometer js -->
-<script src="frontend/js/odometer.js"></script>
-<!-- viewport js -->
-<script src="frontend/js/viewport.jquery.js"></script>
-<!-- smooth scroll js -->
-<script src="frontend/js/smoothscroll.js"></script>
-<!-- nice-select -->
-<script src="frontend/js/jquery.nice-select.js"></script>
-<!-- lightcase js -->
-<script src="frontend/js/lightcase.js"></script>
-
-<!-- common all project -->
-<script src="backend/js/select2.js"></script>
-<!-- Popup -->
-<script src="backend/library/popup/jquery.magnific-popup.js"></script>
-<!-- file holder js -->
+<script src="{{ asset('frontend/js/jquery-3.5.1.js')}}"></script>
+<script src="{{ asset('frontend/js/bootstrap.bundle.js')}}"></script>
+<script src="{{ asset('frontend/js/swiper.js')}}"></script>
+<script src="{{ asset('frontend/js/odometer.js')}}"></script>
+<script src="{{ asset('frontend/js/viewport.jquery.js')}}"></script>
+<script src="{{ asset('frontend/js/smoothscroll.js')}}"></script>
+<script src="{{ asset('frontend/js/jquery.nice-select.js')}}"></script>
+<script src="{{ asset('frontend/js/lightcase.js')}}"></script>
+<script src="{{ asset('backend/js/select2.js')}}"></script>
+<script src="{{ asset('backend/library/popup/jquery.magnific-popup.js')}}"></script>
 <script src="https://appdevs.cloud/cdn/fileholder/v1.0/js/fileholder-script.js" type="module"></script>
 <script>
     var fileHolderAfterLoad = {};
@@ -42,7 +30,7 @@
         fileHolderAfterLoad.previewReInit(inputField);
     }
 </script>
-<script src="{{ asset('public/frontend') }}/js/main.js"></script>
+<script src="{{ asset('frontend/js/main.js') }}"></script>
 <script>
     var allCountries = "";
 

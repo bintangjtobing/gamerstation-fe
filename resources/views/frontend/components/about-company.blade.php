@@ -5,24 +5,25 @@
                 <div class="about-content-wrapper">
                     <div class="about-content-area">
                         <div class="section-header">
-                            <span class="section-sub-titel"><i class="las la-gamepad"></i> Our Features</span>
-                            <h2 class="section-title"><span class="text--base">Ultimate Choice for Gamers and Gaming
-                                    Entrepreneurs</span></h2>
-                            <p>Experience a new era in gaming with our user-friendly platform and powerful tools
-                                tailored for gamers and gaming entrepreneurs alike. Join us as we redefine the way you
-                                top up, recharge, and connect with the gaming community worldwide.</p>
+                            <span class="section-sub-titel"><i class="las la-gamepad"></i> Fitur Kami</span>
+                            <h2 class="section-title"><span class="text--base">Pilihan Terbaik untuk Gamer dan Pengusaha
+                                    Game</span></h2>
+                            <p>Rasakan era baru dalam dunia game dengan platform ramah pengguna kami dan alat-alat
+                                canggih yang dirancang untuk para gamer dan pengusaha game. Bergabunglah dengan kami
+                                untuk mendefinisikan ulang cara Anda melakukan top up, mengisi ulang, dan terhubung
+                                dengan komunitas game di seluruh dunia.</p>
                         </div>
                     </div>
                     <div class="about-feature-area">
                         <ul class="feature-list">
-                            <li>Easy In-Game Top-Ups</li>
-                            <li>Wide Range of Gift Cards</li>
-                            <li>Multiple Currency Support</li>
-                            <li>24/7 Customer Support</li>
-                            <li>Secure Transactions</li>
-                            <li>User-Friendly Interface</li>
-                            <li>Compatible Across Devices</li>
-                            <li>Multiple Payment Options</li>
+                            <li>Top Up Dalam Game yang Mudah</li>
+                            <li>Beragam Kartu Hadiah</li>
+                            <li>Dukungan Banyak Mata Uang</li>
+                            <li>Dukungan Pelanggan 24/7</li>
+                            <li>Transaksi Aman</li>
+                            <li>Antarmuka Ramah Pengguna</li>
+                            <li>Kompatibel di Berbagai Perangkat</li>
+                            <li>Beragam Opsi Pembayaran</li>
                         </ul>
                     </div>
                     <div class="feature-statistics-wrapper">
@@ -34,7 +35,7 @@
                                             <h3 class="odo-title odometer" data-odometer-final="2024">0</h3>
                                             <h3 class="title">2.0K</h3>
                                         </div>
-                                        <p>Total Users</p>
+                                        <p>Total Pengguna</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +46,7 @@
                                             <h3 class="odo-title odometer" data-odometer-final="1000">0</h3>
                                             <h3 class="title">1.0K</h3>
                                         </div>
-                                        <p>Total Transactions</p>
+                                        <p>Total Transaksi</p>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +57,7 @@
                                             <h3 class="odo-title odometer" data-odometer-final="800">0</h3>
                                             <h3 class="title">800</h3>
                                         </div>
-                                        <p>Available Country</p>
+                                        <p>Negara Tersedia</p>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +67,8 @@
             </div>
             <div class="col-xl-6 col-lg-6 col-md-12 mb-30">
                 <div class="about-thumb text-md-center">
-                    <img src="frontend/images/site-section/94d59292-e49d-4e62-ba4f-5f7bac506e9b.webp" alt="about">
+                    <img src="{{asset('frontend/images/site-section/94d59292-e49d-4e62-ba4f-5f7bac506e9b.webp')}}"
+                        alt="tentang">
                 </div>
             </div>
         </div>

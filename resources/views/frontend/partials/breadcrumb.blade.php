@@ -1,10 +1,11 @@
 @php
-    $breadcrumd_slug = Illuminate\Support\Str::slug(App\Constants\SiteSectionConst::BREADCRUMB_SECTION);
-    $breadcrum = App\Models\Admin\SiteSections::getData( $breadcrumd_slug)->first();
+$breadcrumd_slug = Illuminate\Support\Str::slug(App\Constants\SiteSectionConst::BREADCRUMB_SECTION);
+$breadcrum = App\Models\Admin\SiteSections::getData( $breadcrumd_slug)->first();
 @endphp
-<section class="banner-section inner-banner-section bg_img bg-overlay-base" data-background="{{ get_image(@$breadcrum->value->images->banner_image,'site-section') }}">
+<section class="banner-section inner-banner-section bg_img bg-overlay-base"
+    data-background="{{ get_image(@$breadcrum->value->images->banner_image,'site-section') }}">
     <div class="banner-bottom-shape">
-        <img src="{{ asset('public/frontend/') }}/images/banner/bottom-shape.png" alt="shape">
+        <img src="{{ asset('frontend/') }}/images/banner/bottom-shape.png')}}" alt=" shape">
     </div>
     <div class="container">
         <div class="row justify-content-center align-items-center">

@@ -1,64 +1,65 @@
 @php
-    $menues = DB::table('setup_pages')
-        ->where('status', 1)
-        ->get();
+$menues = DB::table('setup_pages')
+->where('status', 1)
+->get();
 
-    $current_route = Route::currentRouteName();
+$current_route = Route::currentRouteName();
 @endphp
 
 <div class="main-side-menu">
     <div class="main-side-menu-logo-area">
         <div class="thumb-logo">
-            <img src="fileholder/img/b88efc35-a595-4d50-bc55-857d7a5dc830.png" alt="logo">
+            <img src="{{ asset('backend/images/web-settings/image-assets/1c72d20e-32ce-48b8-9484-b8ed4b9ab374.webp') }}"
+                alt="logo">
         </div>
         <span class="main-side-menu-cross"><i class="las la-times"></i></span>
     </div>
     <ul class="main-side-menu-list">
         <li>
-            <a href="{{ route('index') }}" class="{{ $current_route == 'index' ? 'active' : '' }}">
+            <a href="/" class="active">
                 <div class="main-side-menu-item">
-                    <i class="las la-th-large"></i> {{ __('Home') }}
+                    <i class="las la-th-large"></i> Home
                 </div>
                 <span><i class="las la-angle-right"></i></span>
             </a>
         </li>
 
         <li>
-            <a href="{{ route('topup') }}" class="{{ $current_route == 'topup' ? 'active' : '' }}">
+            <a href="/topup" class="">
                 <div class="main-side-menu-item">
-                    <i class="las la-coins"></i> {{ __('Topup') }}
+                    <i class="las la-coins"></i> Topup
                 </div>
                 <span><i class="las la-angle-right"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ route('about') }}" class="{{ $current_route == 'about' ? 'active' : '' }}">
+            <a href="/about" class="">
                 <div class="main-side-menu-item">
-                    <i class="las la-info-circle"></i> {{ __('About') }}
+                    <i class="las la-info-circle"></i> About
                 </div>
                 <span><i class="las la-angle-right"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ route('blog') }}" class="{{ $current_route == 'blog' ? 'active' : '' }}">
+            <a href="/blog" class="">
                 <div class="main-side-menu-item">
-                    <i class="las la-comments"></i> {{ __('Blog') }}
+                    <i class="las la-comments"></i> Blog
                 </div>
                 <span><i class="las la-angle-right"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ route('faq') }}" class="{{ $current_route == 'faq' ? 'active' : '' }}">
+            <a href="/faq" class="">
                 <div class="main-side-menu-item">
-                    <i class="las la-question-circle"></i> {{ __('FAQ') }}
+                    <i class="las la-question-circle"></i> FAQ
                 </div>
                 <span><i class="las la-angle-right"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ route('contact') }}" class="{{ $current_route == 'contact' ? 'active' : '' }}">
+            <a href="/contact" class="">
                 <div class="main-side-menu-item">
-                    <i class="las la-headset"></i> {{ __('Contact') }}
+                    <i class="las la-headset"></i> Contact
                 </div>
                 <span><i class="las la-angle-right"></i></span>
             </a>
