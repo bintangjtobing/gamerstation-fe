@@ -10462,3 +10462,7 @@ input:-webkit-autofill:active {
                         border: 3px solid white;
                         border-radius: 10px;
                     }
+                    .ewallet-logo.selected {
+                        border: 3px solid white;
+                        border-radius: 10px;
+                    }

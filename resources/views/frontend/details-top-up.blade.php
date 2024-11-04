@@ -164,19 +164,26 @@
                                         </div>
 
                                         <!-- E-Wallet -->
-                                        <div class="faq-item">
-                                            <h3 class="faq-title" onclick="selectPaymentMethod('ewallet')">
+                                        <div class="faq-item" id="ewallet-item">
+                                            <h3 class="faq-title"
+                                                onclick="selectPaymentMethod('ewallet', 'ewallet-item')">
                                                 <span class="title">E-Wallet (OVO, ShopeePay, Dana)</span>
                                                 <span class="right-icon"></span>
                                             </h3>
                                             <div class="faq-content" id="ewallet-content" style="display: none;">
                                                 <div class="payment-card">
                                                     <img src="https://vectorez.biz.id/wp-content/uploads/2024/05/Logo-OVO-2@0.5x.png"
-                                                        alt="OVO Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="OVO Logo" onclick="selectEwallet(this, 'OVO')"
+                                                        class="ewallet-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg"
-                                                        alt="Shopee Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="Shopee Logo" onclick="selectEwallet(this, 'ShopeePay')"
+                                                        class="ewallet-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Dana_logo.png"
-                                                        alt="Dana Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="Dana Logo" onclick="selectEwallet(this, 'Dana')"
+                                                        class="ewallet-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <p><strong>Total Bayar:</strong><br><span
                                                             style="font-size: 28px; color: #FFD700;">Rp. 138,537</span>
                                                     </p>
@@ -379,6 +386,7 @@
 <script>
     let selectedMethod = '';
     let selectedBank = '';
+    let selectedEwallet = '';
 
     function selectBank(element, bank) {
         // Hapus kelas 'selected' dari semua logo bank
@@ -390,9 +398,28 @@
         // Simpan bank yang dipilih
         selectedBank = bank;
     }
+    function selectEwallet(element, ewallet) {
+        // Hapus kelas 'selected' dari semua logo e-wallet
+        document.querySelectorAll('.ewallet-logo').forEach(img => img.classList.remove('selected'));
+
+        // Tambahkan kelas 'selected' ke logo e-wallet yang diklik
+        element.classList.add('selected');
+
+        // Simpan e-wallet yang dipilih
+        selectedEwallet = ewallet;
+    }
 
     function selectPaymentMethod(method) {
+        // Hapus kelas 'selected' dari semua metode pembayaran
+        document.querySelectorAll('.faq-item').forEach(item => item.classList.remove('selected'));
+
+        // Tambahkan kelas 'selected' ke metode pembayaran yang diklik
+        document.getElementById(itemId).classList.add('selected');
+
+        // Simpan metode pembayaran yang dipilih
         selectedMethod = method;
+        selectedBank = '';  // Reset bank jika metode pembayaran berubah
+        selectedEwallet = '';
     }
 
     function submitForm() {
@@ -414,7 +441,11 @@
             }
             initialMessage = `Membuat ID pembayaran kamu untuk Virtual Account ${selectedBank}...`;
         } else if (selectedMethod === 'ewallet') {
-            initialMessage = "Sedang redirecting ke payment page Shopee";
+            if (!selectedEwallet) {
+                alert("Pilih e-wallet terlebih dahulu");
+                return;
+            }
+            initialMessage = `Sedang redirecting ke payment page ${selectedEwallet}`;
             window.open('https://shopee.co.id', '_blank');
         }
 
