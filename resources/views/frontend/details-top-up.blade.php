@@ -338,7 +338,7 @@
                 <p style="margin-top: 10px;">Scan untuk pembayaran melalui QRIS</p>
             </div>
             <div class="modal-footer justify-content-center border-0">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Tutup</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cek Status</button>
             </div>
         </div>
     </div>
