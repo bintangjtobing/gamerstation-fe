@@ -10454,3 +10454,11 @@ input:-webkit-autofill:active {
                         padding-top: 10px;
                         display: none;
                     }
+                    .bank-logo {
+                        transition: border 0.3s;
+                    }
+
+                    .bank-logo.selected {
+                        border: 3px solid white;
+                        border-radius: 10px;
+                    }

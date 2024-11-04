@@ -95,9 +95,9 @@
                                             </h3>
                                             <div class="faq-content" id="qris-content" style="display: none;">
                                                 <div class="payment-card">
-                                                    <img src="https://as1.ftcdn.net/v2/jpg/02/14/61/50/1000_F_214615075_6Pu4mJ2SAEDMB0NdV1vQSlYeEbByYC7V.jpg"
-                                                        alt="QRIS - GamerStation"
-                                                        style="width: 100px; margin-bottom: 10px;">
+                                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhvTtjN1Bj37W3jTiire9jlqgP046Je6-JPvIVEMjW6avji3kH1eC5HyUDIY8q1l6z89kidy_XZz4cX7-d_rdSentSrY94naUFcRo-NhiEvMUWmevEbQz-xRdMLUFSr61dHVvbVDq58GmxM0UAIgwnfCak8KWr0wTa0UmmjdUQTTcm2pEd3YjuHtPj9Q/s2161/Logo%20QRIS.png"
+                                                        alt="QRIS - GamerStation" style="width: 100px; margin-bottom: 10px; -webkit-filter: invert(100%);
+    filter: invert(100%);">
                                                     <p><strong>Total Bayar:</strong><br><span
                                                             style="font-size: 28px; color: #FFD700;">Rp. 138,537</span>
                                                     </p>
@@ -126,15 +126,25 @@
                                             <div class="faq-content" id="va-content" style="display: none;">
                                                 <div class="payment-card">
                                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/800px-Bank_Central_Asia.svg.png"
-                                                        alt="BCA Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="BCA Logo" onclick="selectBank(this, 'BCA')"
+                                                        class="bank-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <img src="https://finnsbali.com/wp-content/uploads/2018/03/logo-cimb-niaga3-1.png"
-                                                        alt="CIMB Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="CIMB Logo" onclick="selectBank(this, 'CIMB Niaga')"
+                                                        class="bank-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <img src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/2560px-BNI_logo.svg.png"
-                                                        alt="BNI Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="BNI Logo" onclick="selectBank(this, 'BNI')"
+                                                        class="bank-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_BRI.png/1200px-Logo_BRI.png"
-                                                        alt="BRI Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="BRI Logo" onclick="selectBank(this, 'BRI')"
+                                                        class="bank-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bank_Mandiri_logo_2016.svg/1024px-Bank_Mandiri_logo_2016.svg.png"
-                                                        alt="Mandiri Logo" style="width: 100px; margin-bottom: 10px;">
+                                                        alt="Mandiri Logo" onclick="selectBank(this, 'Mandiri')"
+                                                        class="bank-logo"
+                                                        style="width: 100px; margin-bottom: 10px; cursor: pointer;">
                                                     <p><strong>Total Bayar:</strong><br><span
                                                             style="font-size: 28px; color: #FFD700;">Rp. 138,537</span>
                                                     </p>
@@ -145,8 +155,7 @@
                                                         <ul style="color: #D3D3D3;">
                                                             <li>Buka mobile banking atau internet banking kamu.</li>
                                                             <li>Pilih "Virtual Account" dan masukkan nomor yang
-                                                                disediakan.
-                                                            </li>
+                                                                disediakan.</li>
                                                             <li>Konfirmasi dan lanjutkan pembayaran.</li>
                                                         </ul>
                                                     </div>
@@ -318,8 +327,8 @@
                 <p id="initialMessageText">Membuat ID pembayaran kamu...</p>
             </div>
             <div class="modal-footer justify-content-center border-0">
-                <button type="button" class="btn btn-primary" onclick="proceedWithPayment()"
-                    data-bs-dismiss="modal">Lanjutkan</button>
+                <button type="button" class="btn btn-primary" onclick="proceedWithPayment()" data-bs-dismiss="modal">Cek
+                    Status</button>
             </div>
         </div>
     </div>
@@ -353,13 +362,13 @@
                 </h4>
             </div>
             <div class="modal-body text-center" style="padding-top:10px;">
-                <p><strong>Nomor Virtual Account:</strong></p>
+                <p><strong>Nomor Virtual Account untuk <span id="selectedBankName"></span>:</strong></p>
                 <p id="virtualAccountNumber" style="font-size: 20px; color: #FFD700; margin-bottom: 10px;"></p>
                 <p style="margin-top: 10px;">Silakan masukkan nomor ini di aplikasi mobile banking Anda.</p>
             </div>
             <div class="modal-footer justify-content-center border-0">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
-                    onclick="proceedWithPayment()">Lanjutkan</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onclick="proceedWithPayment()">Cek
+                    Status</button>
             </div>
         </div>
     </div>
@@ -369,6 +378,18 @@
 @push('script')
 <script>
     let selectedMethod = '';
+    let selectedBank = '';
+
+    function selectBank(element, bank) {
+        // Hapus kelas 'selected' dari semua logo bank
+        document.querySelectorAll('.bank-logo').forEach(img => img.classList.remove('selected'));
+
+        // Tambahkan kelas 'selected' ke logo bank yang diklik
+        element.classList.add('selected');
+
+        // Simpan bank yang dipilih
+        selectedBank = bank;
+    }
 
     function selectPaymentMethod(method) {
         selectedMethod = method;
@@ -387,7 +408,11 @@
         if (selectedMethod === 'qris') {
             initialMessage = "Membuat ID pembayaran kamu... Menampilkan QRIS";
         } else if (selectedMethod === 'va') {
-            initialMessage = "Membuat ID pembayaran kamu... Menampilkan kode Virtual Account";
+            if (!selectedBank) {
+                alert("Pilih bank terlebih dahulu untuk Virtual Account");
+                return;
+            }
+            initialMessage = `Membuat ID pembayaran kamu untuk Virtual Account ${selectedBank}...`;
         } else if (selectedMethod === 'ewallet') {
             initialMessage = "Sedang redirecting ke payment page Shopee";
             window.open('https://shopee.co.id', '_blank');
@@ -410,38 +435,34 @@
             });
         }
     }
-
-    function proceedWithPayment() {
-        setTimeout(() => {
-            showVerificationModal();
-        }, 3000);
-    }
-
     function showQRIS() {
         const today = new Date();
         const dateStr = `${today.getDate()},${today.getMonth() + 1},${today.getFullYear()}`;
         const transactionId = generateTransactionID(36);
 
+        // Construct the QRIS URL
         const qrisUrl = `https://gstation.bintangtobing.com/payment/qris/${dateStr},${transactionId}`;
 
+        // Clear any existing QR code
         document.getElementById("qrisContainer").innerHTML = "";
 
+        // Generate QR code
         new QRCode(document.getElementById("qrisContainer"), {
             text: qrisUrl,
-            width: 256,
-            height: 256
+            width: 128,
+            height: 128
         });
 
+        // Show the modal
         const qrisModal = new bootstrap.Modal(document.getElementById('qrisModal'), {
             keyboard: false
         });
         qrisModal.show();
-
-        qrisModal._element.addEventListener('hidden.bs.modal', function () {
-            proceedWithPayment();
-        });
     }
     function showVirtualAccount() {
+        // Tampilkan nama bank yang dipilih di modal
+        document.getElementById('selectedBankName').textContent = selectedBank;
+
         const virtualAccountNumber = generateVirtualAccountNumber();
         document.getElementById('virtualAccountNumber').textContent = virtualAccountNumber;
 
@@ -454,6 +475,7 @@
             proceedWithPayment();
         });
     }
+
     function generateVirtualAccountNumber() {
         const bankPrefix = '123';  // Contoh kode bank
         const accountNumber = Math.floor(Math.random() * 1000000000).toString().padStart(9, '0');
@@ -471,7 +493,7 @@
             keyboard: false
         });
 
-        document.getElementById('verificationMessage').textContent = `Mohon tunggu sebentar, sedang memverifikasi pembayaran melalui ${selectedMethod === 'ewallet' ? 'e-wallet' : selectedMethod === 'qris' ? 'QRIS' : 'Virtual Account'} Anda...`;
+        document.getElementById('verificationMessage').textContent = `Mohon tunggu sebentar, sedang memverifikasi pembayaran melalui ${selectedMethod === 'ewallet' ? 'e-wallet' : selectedMethod === 'qris' ? 'QRIS' : 'Virtual Account'} ${selectedBank} Anda...`;
         verificationModal.show();
 
         setTimeout(() => {
@@ -485,22 +507,13 @@
             keyboard: false
         });
 
-        document.getElementById('successMessage').textContent = `Pembayaran melalui ${selectedMethod === 'ewallet' ? 'e-wallet' : selectedMethod === 'qris' ? 'QRIS' : 'Virtual Account'} berhasil! Berikut voucher ID kamu:`;
+        document.getElementById('successMessage').textContent = `Pembayaran melalui Virtual Account ${selectedBank} berhasil! Berikut voucher ID kamu:`;
         document.getElementById('voucherId').textContent = generateVoucherId();
         successModal.show();
 
         setTimeout(() => {
             window.location.href = '/';
         }, 3000);
-    }
-
-    function generateTransactionID(length) {
-        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-        let result = '';
-        for (let i = 0; i < length; i++) {
-            result += characters.charAt(Math.floor(Math.random() * characters.length));
-        }
-        return result;
     }
 
     function generateVoucherId() {
